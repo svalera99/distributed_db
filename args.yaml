@@ -1,0 +1,6 @@
+postgres:
+  db_name: counter_db
+  host: localhost
+  user: valery
+  password: pass
+  port: 5432
