@@ -1,0 +1,24 @@
+2024-02-07 19:49:21.175 | INFO     | __main__:wrapper:30 - ------------------------------
+2024-02-07 19:49:21.175 | INFO     | __main__:wrapper:31 - Starting measuring function lost_update
+2024-02-07 19:49:45.413 | INFO     | __main__:execute_threads:54 - There were total of 10208
+2024-02-07 19:49:45.414 | INFO     | __main__:wrapper:34 - Function laster for 24.238701581954956
+2024-02-07 19:49:45.414 | INFO     | __main__:wrapper:35 - Function execute_threads DONE
+2024-02-07 19:49:45.414 | INFO     | __main__:wrapper:36 - ******************************
+2024-02-07 19:49:45.419 | INFO     | __main__:wrapper:30 - ------------------------------
+2024-02-07 19:49:45.419 | INFO     | __main__:wrapper:31 - Starting measuring function in_place_update
+2024-02-07 19:50:15.807 | INFO     | __main__:execute_threads:54 - There were total of 100000
+2024-02-07 19:50:15.807 | INFO     | __main__:wrapper:34 - Function laster for 30.387853622436523
+2024-02-07 19:50:15.807 | INFO     | __main__:wrapper:35 - Function execute_threads DONE
+2024-02-07 19:50:15.808 | INFO     | __main__:wrapper:36 - ******************************
+2024-02-07 19:50:15.812 | INFO     | __main__:wrapper:30 - ------------------------------
+2024-02-07 19:50:15.813 | INFO     | __main__:wrapper:31 - Starting measuring function row_level_locking
+2024-02-07 19:51:21.879 | INFO     | __main__:execute_threads:54 - There were total of 100000
+2024-02-07 19:51:21.880 | INFO     | __main__:wrapper:34 - Function laster for 66.06704330444336
+2024-02-07 19:51:21.880 | INFO     | __main__:wrapper:35 - Function execute_threads DONE
+2024-02-07 19:51:21.880 | INFO     | __main__:wrapper:36 - ******************************
+2024-02-07 19:51:21.892 | INFO     | __main__:wrapper:30 - ------------------------------
+2024-02-07 19:51:21.892 | INFO     | __main__:wrapper:31 - Starting measuring function optimistic_concurrency_control
+2024-02-07 19:54:28.465 | INFO     | __main__:execute_threads:54 - There were total of 100000
+2024-02-07 19:54:28.466 | INFO     | __main__:wrapper:34 - Function laster for 186.57289052009583
+2024-02-07 19:54:28.466 | INFO     | __main__:wrapper:35 - Function execute_threads DONE
+2024-02-07 19:54:28.466 | INFO     | __main__:wrapper:36 - ******************************

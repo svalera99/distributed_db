@@ -2,11 +2,17 @@ from time import time
 from functools import wraps
 from multiprocessing import Process
 from typing import Callable, Dict
+import sys
 
 from loguru import logger
 import yaml
 import psycopg2
 
+
+def init_logger(logger_level: str):
+    logger.remove()
+    logger.add(sys.stdout, level=logger_level)
+    logger.add("results.log", level=logger_level, backtrace=True, diagnose=True)
 
 def create_conn_cursor(args):
     postgres_args = args["postgres"]
@@ -22,7 +28,7 @@ def measure_time(f):
     @wraps(f)
     def wrapper(*args, **kw):
         logger.info(f"{'-'*30}")
-        logger.info(f"Starting measuring function {f.__name__}")
+        logger.info(f"Starting measuring function {args[0].__name__}")
         was = time()
         f(*args, **kw)
         logger.info(f"Function laster for {time() - was}")
@@ -97,6 +103,8 @@ def optimistic_concurrency_control(args):
 if __name__ == "__main__":
     with open("args.yaml") as f:
         args = yaml.safe_load(f)
+
+    init_logger("INFO")
 
     for func in [lost_update, in_place_update, row_level_locking, optimistic_concurrency_control]:
         cleanup_the_row(args)
