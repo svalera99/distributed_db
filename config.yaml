@@ -1,0 +1,17 @@
+logger:
+  level: INFO
+
+hazelcast:
+  cluster_name: dev
+  cluster_members: [
+    # "localhost:5701",
+    # "localhost:5702",
+    # "localhost:5703"
+    "172.20.0.2:5701",
+    "172.20.0.3:5701",
+    "172.20.0.4:5701"
+  ]
+
+  map:
+    name: counter_map
+    key: counter

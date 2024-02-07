@@ -1,0 +1,24 @@
+2024-02-07 19:30:22.013 | INFO     | experiments.utils:wrapper:12 - ------------------------------
+2024-02-07 19:30:22.013 | INFO     | experiments.utils:wrapper:14 - Starting measuring function no_lock_counter
+2024-02-07 19:30:27.927 | INFO     | experiments.utils:wrapper:17 - Function laster for 5.913670539855957
+2024-02-07 19:30:27.927 | INFO     | experiments.utils:wrapper:18 - Function no_lock_counter DONE
+2024-02-07 19:30:27.935 | INFO     | experiments.utils:wrapper:24 - Value of counter at the end of function is 18159
+2024-02-07 19:30:27.935 | INFO     | experiments.utils:wrapper:35 - ******************************
+2024-02-07 19:30:27.943 | INFO     | experiments.utils:wrapper:12 - ------------------------------
+2024-02-07 19:30:27.943 | INFO     | experiments.utils:wrapper:14 - Starting measuring function pessimistic_lock
+2024-02-07 19:33:41.590 | INFO     | experiments.utils:wrapper:17 - Function laster for 193.64646363258362
+2024-02-07 19:33:41.590 | INFO     | experiments.utils:wrapper:18 - Function pessimistic_lock DONE
+2024-02-07 19:33:41.599 | INFO     | experiments.utils:wrapper:24 - Value of counter at the end of function is 100000
+2024-02-07 19:33:41.599 | INFO     | experiments.utils:wrapper:35 - ******************************
+2024-02-07 19:33:41.605 | INFO     | experiments.utils:wrapper:12 - ------------------------------
+2024-02-07 19:33:41.605 | INFO     | experiments.utils:wrapper:14 - Starting measuring function optimistic_lock
+2024-02-07 19:34:14.792 | INFO     | experiments.utils:wrapper:17 - Function laster for 33.18707990646362
+2024-02-07 19:34:14.792 | INFO     | experiments.utils:wrapper:18 - Function optimistic_lock DONE
+2024-02-07 19:34:14.801 | INFO     | experiments.utils:wrapper:24 - Value of counter at the end of function is 100000
+2024-02-07 19:34:14.801 | INFO     | experiments.utils:wrapper:35 - ******************************
+2024-02-07 19:34:17.386 | INFO     | experiments.utils:wrapper:12 - ------------------------------
+2024-02-07 19:34:17.389 | INFO     | experiments.utils:wrapper:14 - Starting measuring function atomic_long
+2024-02-07 19:34:22.165 | INFO     | experiments.utils:wrapper:17 - Function laster for 4.7750561237335205
+2024-02-07 19:34:22.165 | INFO     | experiments.utils:wrapper:18 - Function atomic_long DONE
+2024-02-07 19:34:22.173 | INFO     | experiments.utils:wrapper:30 - Value of counter at the end of function is 100000
+2024-02-07 19:34:22.174 | INFO     | experiments.utils:wrapper:35 - ******************************

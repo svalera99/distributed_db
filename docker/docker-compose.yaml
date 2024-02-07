@@ -1,0 +1,41 @@
+version: '3'
+services:
+  hazelcast-cluster-a:
+    image: hazelcast/hazelcast:5.1.7
+    container_name: hazelcast-cluster-a
+    networks:
+      - hazelcast-network
+    ports:
+      - "5701:5701"
+    volumes:
+      - ./:/fldr
+    environment:
+      - HAZELCAST_CONFIG=/fldr/hazelcast-docker.xml
+
+  hazelcast-cluster-b:
+    image: hazelcast/hazelcast:5.1.7
+    container_name: hazelcast-cluster-b
+    networks:
+      - hazelcast-network
+    ports:
+      - "5702:5701"
+    volumes:
+      - ./:/fldr
+    environment:
+      - HAZELCAST_CONFIG=/fldr/hazelcast-docker.xml
+
+  hazelcast-cluster-c:
+    image: hazelcast/hazelcast:5.1.7
+    container_name: hazelcast-cluster-c
+    networks:
+      - hazelcast-network
+    ports:
+      - "5703:5701"
+    volumes:
+      - ./:/fldr
+    environment:
+      - HAZELCAST_CONFIG=/fldr/hazelcast-docker.xml
+
+networks:
+  hazelcast-network:
+    external: true
