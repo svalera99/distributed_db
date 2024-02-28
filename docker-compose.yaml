@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
+
+  insert_data:
+    image: mongo
+    volumes:
+      - ${PWD}/data:/data
+    links:
+      - "mongodb:mongo"
+    command: bash -c "mongoimport --db lab_db --collection items --file /data/items.json --uri mongodb://mongo:27017/lab_db --jsonArray"
+
+  experiment_items:
+    image: mongo
+    volumes:
+      - "${PWD}:/lab"
+    links:
+      - "mongodb:mongo"
+    command: bash -c "/lab/experiments/items.sh > /lab/logs/item_logs.log"
+    depends_on:
+      - insert_data

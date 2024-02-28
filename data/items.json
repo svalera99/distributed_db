@@ -1,0 +1,602 @@
+[
+    {
+        "category": "Food",
+        "model": "Model C",
+        "producer": "Producer Y",
+        "price": 833.74
+    },
+    {
+        "category": "Electronics",
+        "model": "Model C",
+        "producer": "Producer V",
+        "price": 930.54
+    },
+    {
+        "category": "Furniture",
+        "model": "Model A",
+        "producer": "Producer Z",
+        "price": 353.07
+    },
+    {
+        "category": "Electronics",
+        "model": "Model B",
+        "producer": "Producer V",
+        "price": 109.8
+    },
+    {
+        "category": "Clothing",
+        "model": "Model C",
+        "producer": "Producer W",
+        "price": 967.05
+    },
+    {
+        "category": "Sports",
+        "model": "Model C",
+        "producer": "Producer W",
+        "price": 871.05
+    },
+    {
+        "category": "Electronics",
+        "model": "Model A",
+        "producer": "Producer V",
+        "price": 119.99
+    },
+    {
+        "category": "Electronics",
+        "model": "Model D",
+        "producer": "Producer Y",
+        "price": 450.45
+    },
+    {
+        "category": "Furniture",
+        "model": "Model B",
+        "producer": "Producer Z",
+        "price": 379.9
+    },
+    {
+        "category": "Food",
+        "model": "Model D",
+        "producer": "Producer W",
+        "price": 772.7
+    },
+    {
+        "category": "Food",
+        "model": "Model D",
+        "producer": "Producer V",
+        "price": 444.02
+    },
+    {
+        "category": "Food",
+        "model": "Model D",
+        "producer": "Producer X",
+        "price": 483.74
+    },
+    {
+        "category": "Sports",
+        "model": "Model D",
+        "producer": "Producer Z",
+        "price": 965.17
+    },
+    {
+        "category": "Food",
+        "model": "Model B",
+        "producer": "Producer X",
+        "price": 251.15
+    },
+    {
+        "category": "Food",
+        "model": "Model E",
+        "producer": "Producer V",
+        "price": 301.2
+    },
+    {
+        "category": "Sports",
+        "model": "Model D",
+        "producer": "Producer X",
+        "price": 133.2
+    },
+    {
+        "category": "Furniture",
+        "model": "Model E",
+        "producer": "Producer Z",
+        "price": 274.87
+    },
+    {
+        "category": "Furniture",
+        "model": "Model E",
+        "producer": "Producer Y",
+        "price": 404.23
+    },
+    {
+        "category": "Clothing",
+        "model": "Model C",
+        "producer": "Producer X",
+        "price": 100.97
+    },
+    {
+        "category": "Sports",
+        "model": "Model D",
+        "producer": "Producer W",
+        "price": 250.93
+    },
+    {
+        "category": "Electronics",
+        "model": "Model A",
+        "producer": "Producer Y",
+        "price": 119.78
+    },
+    {
+        "category": "Clothing",
+        "model": "Model B",
+        "producer": "Producer X",
+        "price": 945.38
+    },
+    {
+        "category": "Sports",
+        "model": "Model A",
+        "producer": "Producer Y",
+        "price": 523.06
+    },
+    {
+        "category": "Electronics",
+        "model": "Model B",
+        "producer": "Producer W",
+        "price": 45.51
+    },
+    {
+        "category": "Electronics",
+        "model": "Model E",
+        "producer": "Producer Z",
+        "price": 93.9
+    },
+    {
+        "category": "Clothing",
+        "model": "Model E",
+        "producer": "Producer Y",
+        "price": 247.24
+    },
+    {
+        "category": "Food",
+        "model": "Model E",
+        "producer": "Producer Z",
+        "price": 382.0
+    },
+    {
+        "category": "Clothing",
+        "model": "Model A",
+        "producer": "Producer Y",
+        "price": 575.46
+    },
+    {
+        "category": "Furniture",
+        "model": "Model B",
+        "producer": "Producer Z",
+        "price": 482.61
+    },
+    {
+        "category": "Food",
+        "model": "Model C",
+        "producer": "Producer V",
+        "price": 507.04
+    },
+    {
+        "category": "Food",
+        "model": "Model B",
+        "producer": "Producer V",
+        "price": 958.31
+    },
+    {
+        "category": "Food",
+        "model": "Model A",
+        "producer": "Producer X",
+        "price": 958.2
+    },
+    {
+        "category": "Sports",
+        "model": "Model E",
+        "producer": "Producer Z",
+        "price": 767.63
+    },
+    {
+        "category": "Sports",
+        "model": "Model A",
+        "producer": "Producer V",
+        "price": 524.58
+    },
+    {
+        "category": "Electronics",
+        "model": "Model A",
+        "producer": "Producer W",
+        "price": 587.11
+    },
+    {
+        "category": "Sports",
+        "model": "Model B",
+        "producer": "Producer W",
+        "price": 45.34
+    },
+    {
+        "category": "Clothing",
+        "model": "Model D",
+        "producer": "Producer W",
+        "price": 435.86
+    },
+    {
+        "category": "Sports",
+        "model": "Model C",
+        "producer": "Producer Z",
+        "price": 589.82
+    },
+    {
+        "category": "Electronics",
+        "model": "Model B",
+        "producer": "Producer Y",
+        "price": 527.02
+    },
+    {
+        "category": "Sports",
+        "model": "Model B",
+        "producer": "Producer V",
+        "price": 482.87
+    },
+    {
+        "category": "Furniture",
+        "model": "Model C",
+        "producer": "Producer Z",
+        "price": 226.87
+    },
+    {
+        "category": "Electronics",
+        "model": "Model A",
+        "producer": "Producer V",
+        "price": 157.26
+    },
+    {
+        "category": "Sports",
+        "model": "Model D",
+        "producer": "Producer Z",
+        "price": 821.69
+    },
+    {
+        "category": "Furniture",
+        "model": "Model D",
+        "producer": "Producer Z",
+        "price": 346.34
+    },
+    {
+        "category": "Clothing",
+        "model": "Model D",
+        "producer": "Producer Z",
+        "price": 649.12
+    },
+    {
+        "category": "Food",
+        "model": "Model A",
+        "producer": "Producer Z",
+        "price": 52.86
+    },
+    {
+        "category": "Food",
+        "model": "Model D",
+        "producer": "Producer X",
+        "price": 666.39
+    },
+    {
+        "category": "Food",
+        "model": "Model C",
+        "producer": "Producer Y",
+        "price": 840.69
+    },
+    {
+        "category": "Clothing",
+        "model": "Model B",
+        "producer": "Producer Z",
+        "price": 745.07
+    },
+    {
+        "category": "Sports",
+        "model": "Model B",
+        "producer": "Producer W",
+        "price": 938.95
+    },
+    {
+        "category": "Sports",
+        "model": "Model A",
+        "producer": "Producer W",
+        "price": 844.25
+    },
+    {
+        "category": "Furniture",
+        "model": "Model C",
+        "producer": "Producer Z",
+        "price": 627.4
+    },
+    {
+        "category": "Food",
+        "model": "Model D",
+        "producer": "Producer W",
+        "price": 675.87
+    },
+    {
+        "category": "Furniture",
+        "model": "Model C",
+        "producer": "Producer Z",
+        "price": 660.22
+    },
+    {
+        "category": "Sports",
+        "model": "Model A",
+        "producer": "Producer Y",
+        "price": 768.76
+    },
+    {
+        "category": "Furniture",
+        "model": "Model E",
+        "producer": "Producer X",
+        "price": 373.0
+    },
+    {
+        "category": "Furniture",
+        "model": "Model B",
+        "producer": "Producer Z",
+        "price": 592.86
+    },
+    {
+        "category": "Clothing",
+        "model": "Model A",
+        "producer": "Producer Z",
+        "price": 326.67
+    },
+    {
+        "category": "Sports",
+        "model": "Model E",
+        "producer": "Producer X",
+        "price": 124.58
+    },
+    {
+        "category": "Furniture",
+        "model": "Model E",
+        "producer": "Producer Y",
+        "price": 672.24
+    },
+    {
+        "category": "Furniture",
+        "model": "Model D",
+        "producer": "Producer Z",
+        "price": 957.63
+    },
+    {
+        "category": "Sports",
+        "model": "Model E",
+        "producer": "Producer Y",
+        "price": 641.89
+    },
+    {
+        "category": "Clothing",
+        "model": "Model A",
+        "producer": "Producer W",
+        "price": 779.24
+    },
+    {
+        "category": "Sports",
+        "model": "Model E",
+        "producer": "Producer Z",
+        "price": 249.7
+    },
+    {
+        "category": "Clothing",
+        "model": "Model E",
+        "producer": "Producer X",
+        "price": 413.11
+    },
+    {
+        "category": "Furniture",
+        "model": "Model B",
+        "producer": "Producer X",
+        "price": 92.99
+    },
+    {
+        "category": "Electronics",
+        "model": "Model A",
+        "producer": "Producer Y",
+        "price": 187.08
+    },
+    {
+        "category": "Furniture",
+        "model": "Model B",
+        "producer": "Producer Z",
+        "price": 596.94
+    },
+    {
+        "category": "Clothing",
+        "model": "Model C",
+        "producer": "Producer W",
+        "price": 664.92
+    },
+    {
+        "category": "Electronics",
+        "model": "Model A",
+        "producer": "Producer Y",
+        "price": 102.75
+    },
+    {
+        "category": "Electronics",
+        "model": "Model A",
+        "producer": "Producer Y",
+        "price": 921.35
+    },
+    {
+        "category": "Clothing",
+        "model": "Model B",
+        "producer": "Producer Z",
+        "price": 843.14
+    },
+    {
+        "category": "Food",
+        "model": "Model D",
+        "producer": "Producer Z",
+        "price": 966.91
+    },
+    {
+        "category": "Sports",
+        "model": "Model A",
+        "producer": "Producer Y",
+        "price": 546.44
+    },
+    {
+        "category": "Clothing",
+        "model": "Model C",
+        "producer": "Producer Z",
+        "price": 152.15
+    },
+    {
+        "category": "Sports",
+        "model": "Model D",
+        "producer": "Producer V",
+        "price": 669.3
+    },
+    {
+        "category": "Clothing",
+        "model": "Model D",
+        "producer": "Producer W",
+        "price": 600.72
+    },
+    {
+        "category": "Sports",
+        "model": "Model C",
+        "producer": "Producer W",
+        "price": 965.11
+    },
+    {
+        "category": "Clothing",
+        "model": "Model B",
+        "producer": "Producer X",
+        "price": 250.59
+    },
+    {
+        "category": "Clothing",
+        "model": "Model B",
+        "producer": "Producer X",
+        "price": 83.07
+    },
+    {
+        "category": "Electronics",
+        "model": "Model E",
+        "producer": "Producer W",
+        "price": 60.0
+    },
+    {
+        "category": "Clothing",
+        "model": "Model E",
+        "producer": "Producer Z",
+        "price": 74.0
+    },
+    {
+        "category": "Furniture",
+        "model": "Model A",
+        "producer": "Producer W",
+        "price": 108.36
+    },
+    {
+        "category": "Food",
+        "model": "Model A",
+        "producer": "Producer X",
+        "price": 224.24
+    },
+    {
+        "category": "Food",
+        "model": "Model C",
+        "producer": "Producer Z",
+        "price": 728.31
+    },
+    {
+        "category": "Food",
+        "model": "Model D",
+        "producer": "Producer Z",
+        "price": 407.36
+    },
+    {
+        "category": "Food",
+        "model": "Model B",
+        "producer": "Producer W",
+        "price": 647.22
+    },
+    {
+        "category": "Food",
+        "model": "Model C",
+        "producer": "Producer Y",
+        "price": 776.15
+    },
+    {
+        "category": "Furniture",
+        "model": "Model B",
+        "producer": "Producer W",
+        "price": 223.47
+    },
+    {
+        "category": "Furniture",
+        "model": "Model B",
+        "producer": "Producer X",
+        "price": 960.97
+    },
+    {
+        "category": "Clothing",
+        "model": "Model D",
+        "producer": "Producer Y",
+        "price": 872.3
+    },
+    {
+        "category": "Furniture",
+        "model": "Model C",
+        "producer": "Producer W",
+        "price": 96.06
+    },
+    {
+        "category": "Electronics",
+        "model": "Model D",
+        "producer": "Producer W",
+        "price": 503.99
+    },
+    {
+        "category": "Sports",
+        "model": "Model B",
+        "producer": "Producer W",
+        "price": 120.25
+    },
+    {
+        "category": "Furniture",
+        "model": "Model D",
+        "producer": "Producer Z",
+        "price": 606.21
+    },
+    {
+        "category": "Furniture",
+        "model": "Model D",
+        "producer": "Producer W",
+        "price": 900.55
+    },
+    {
+        "category": "Furniture",
+        "model": "Model D",
+        "producer": "Producer X",
+        "price": 357.26
+    },
+    {
+        "category": "Sports",
+        "model": "Model B",
+        "producer": "Producer V",
+        "price": 207.29
+    },
+    {
+        "category": "Clothing",
+        "model": "Model C",
+        "producer": "Producer Y",
+        "price": 72.98
+    },
+    {
+        "category": "Sports",
+        "model": "Model E",
+        "producer": "Producer Y",
+        "price": 50.08
+    }
+]
