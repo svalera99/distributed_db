@@ -12,14 +12,15 @@ services:
       - ${PWD}/data:/data
     links:
       - "mongodb:mongo"
-    command: bash -c "mongoimport --db lab_db --collection items --file /data/items.json --uri mongodb://mongo:27017/lab_db --jsonArray"
+    command: bash -c "mongoimport --db lab_db --collection items --file /data/items.json --uri mongodb://mongo:27017/lab_db --jsonArray &&\
+        mongoimport --db lab_db --collection orders --file /data/orders.json --uri mongodb://mongo:27017/lab_db --jsonArray"
 
-  experiment_items:
+  run_experiments:
     image: mongo
     volumes:
       - "${PWD}:/lab"
     links:
       - "mongodb:mongo"
-    command: bash -c "/lab/experiments/items.sh > /lab/logs/item_logs.log"
+    command: bash -c "/lab/experiments/items.sh > /lab/logs/item_logs.log && /lab/experiments/orders.sh > /lab/logs/orders_logs.log"
     depends_on:
       - insert_data

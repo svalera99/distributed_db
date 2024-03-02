@@ -27,7 +27,7 @@ Starting experiment with items
     category: 'Electronics',
     model: 'Model A',
     producer: 'Producer Y',
-    price: 219.78,
+    price: 419.78,
     has_defect: true
   },
   {
@@ -35,7 +35,7 @@ Starting experiment with items
     category: 'Clothing',
     model: 'Model B',
     producer: 'Producer X',
-    price: 1045.38,
+    price: 1245.38,
     has_defect: true
   },
   {
@@ -50,7 +50,7 @@ Starting experiment with items
     category: 'Sports',
     model: 'Model A',
     producer: 'Producer Y',
-    price: 623.06,
+    price: 823.06,
     has_defect: true
   },
   {
@@ -87,7 +87,7 @@ Starting experiment with items
     category: 'Clothing',
     model: 'Model A',
     producer: 'Producer Y',
-    price: 675.46,
+    price: 875.46,
     has_defect: true
   },
   {
@@ -109,7 +109,7 @@ Starting experiment with items
     category: 'Food',
     model: 'Model A',
     producer: 'Producer X',
-    price: 1058.2,
+    price: 1258.2,
     has_defect: true
   },
   {
@@ -159,7 +159,7 @@ Starting experiment with items
     category: 'Sports',
     model: 'Model D',
     producer: 'Producer X',
-    price: 233.2,
+    price: 433.2,
     has_defect: true
   },
   {
@@ -167,7 +167,7 @@ Starting experiment with items
     category: 'Food',
     model: 'Model D',
     producer: 'Producer X',
-    price: 583.74,
+    price: 783.74,
     has_defect: true
   },
   {
@@ -225,7 +225,7 @@ Starting experiment with items
     category: 'Food',
     model: 'Model B',
     producer: 'Producer X',
-    price: 351.15,
+    price: 551.15,
     has_defect: true
   },
   {
@@ -233,7 +233,7 @@ Starting experiment with items
     category: 'Clothing',
     model: 'Model C',
     producer: 'Producer X',
-    price: 200.97,
+    price: 400.97,
     has_defect: true
   },
   {
@@ -248,7 +248,7 @@ Starting experiment with items
     category: 'Electronics',
     model: 'Model D',
     producer: 'Producer Y',
-    price: 550.45,
+    price: 750.45,
     has_defect: true
   },
   {
@@ -256,7 +256,7 @@ Starting experiment with items
     category: 'Food',
     model: 'Model C',
     producer: 'Producer Y',
-    price: 933.74,
+    price: 1133.74,
     has_defect: true
   },
   {
@@ -285,7 +285,7 @@ Starting experiment with items
     category: 'Electronics',
     model: 'Model B',
     producer: 'Producer Y',
-    price: 627.02,
+    price: 827.02,
     has_defect: true
   },
   {
@@ -335,7 +335,7 @@ Starting experiment with items
     category: 'Food',
     model: 'Model D',
     producer: 'Producer X',
-    price: 766.39,
+    price: 966.39,
     has_defect: true
   },
   {
@@ -364,7 +364,7 @@ Starting experiment with items
     category: 'Food',
     model: 'Model C',
     producer: 'Producer Y',
-    price: 940.69,
+    price: 1140.69,
     has_defect: true
   },
   {
@@ -400,7 +400,7 @@ Starting experiment with items
     category: 'Sports',
     model: 'Model A',
     producer: 'Producer Y',
-    price: 868.76,
+    price: 1068.76,
     has_defect: true
   },
   {
@@ -408,7 +408,7 @@ Starting experiment with items
     category: 'Furniture',
     model: 'Model E',
     producer: 'Producer X',
-    price: 473,
+    price: 673,
     has_defect: true
   },
   {
@@ -431,7 +431,7 @@ Starting experiment with items
     category: 'Sports',
     model: 'Model E',
     producer: 'Producer X',
-    price: 224.57999999999998,
+    price: 424.58,
     has_defect: true
   },
   {
@@ -475,7 +475,7 @@ Starting experiment with items
     category: 'Furniture',
     model: 'Model B',
     producer: 'Producer X',
-    price: 192.99,
+    price: 392.99,
     has_defect: true
   },
   {
@@ -483,7 +483,7 @@ Starting experiment with items
     category: 'Electronics',
     model: 'Model A',
     producer: 'Producer Y',
-    price: 287.08000000000004,
+    price: 487.08000000000004,
     has_defect: true
   },
   {
@@ -498,7 +498,7 @@ Starting experiment with items
     category: 'Electronics',
     model: 'Model A',
     producer: 'Producer Y',
-    price: 202.75,
+    price: 402.75,
     has_defect: true
   },
   {
@@ -506,7 +506,7 @@ Starting experiment with items
     category: 'Electronics',
     model: 'Model A',
     producer: 'Producer Y',
-    price: 1021.35,
+    price: 1221.35,
     has_defect: true
   },
   {
@@ -535,7 +535,7 @@ Starting experiment with items
     category: 'Sports',
     model: 'Model A',
     producer: 'Producer Y',
-    price: 646.44,
+    price: 846.44,
     has_defect: true
   },
   {
@@ -571,7 +571,7 @@ Starting experiment with items
     category: 'Clothing',
     model: 'Model E',
     producer: 'Producer X',
-    price: 513.11,
+    price: 713.11,
     has_defect: true
   },
   {
@@ -579,7 +579,7 @@ Starting experiment with items
     category: 'Clothing',
     model: 'Model B',
     producer: 'Producer X',
-    price: 350.59000000000003,
+    price: 550.59,
     has_defect: true
   },
   {
@@ -601,7 +601,7 @@ Starting experiment with items
     category: 'Food',
     model: 'Model A',
     producer: 'Producer X',
-    price: 324.24,
+    price: 524.24,
     has_defect: true
   },
   {
@@ -637,7 +637,7 @@ Starting experiment with items
     category: 'Food',
     model: 'Model C',
     producer: 'Producer Y',
-    price: 876.15,
+    price: 1076.15,
     has_defect: true
   },
   {
@@ -645,7 +645,7 @@ Starting experiment with items
     category: 'Clothing',
     model: 'Model D',
     producer: 'Producer Y',
-    price: 972.3,
+    price: 1172.3,
     has_defect: true
   },
   {
@@ -667,7 +667,7 @@ Starting experiment with items
     category: 'Furniture',
     model: 'Model B',
     producer: 'Producer X',
-    price: 1060.97,
+    price: 1260.97,
     has_defect: true
   },
   {
@@ -675,7 +675,7 @@ Starting experiment with items
     category: 'Clothing',
     model: 'Model C',
     producer: 'Producer Y',
-    price: 172.98000000000002,
+    price: 372.98,
     has_defect: true
   },
   {
@@ -719,7 +719,7 @@ Starting experiment with items
     category: 'Furniture',
     model: 'Model D',
     producer: 'Producer X',
-    price: 457.26,
+    price: 657.26,
     has_defect: true
   },
   {
@@ -734,17 +734,717 @@ Starting experiment with items
     category: 'Clothing',
     model: 'Model B',
     producer: 'Producer X',
-    price: 183.07,
+    price: 383.07,
     has_defect: true
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9503'),
+    category: 'Electronics',
+    model: 'Model B',
+    producer: 'Producer V',
+    price: 109.8
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9504'),
+    category: 'Food',
+    model: 'Model B',
+    producer: 'Producer X',
+    price: 251.15
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9505'),
+    category: 'Food',
+    model: 'Model D',
+    producer: 'Producer V',
+    price: 444.02
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9506'),
+    category: 'Furniture',
+    model: 'Model E',
+    producer: 'Producer Y',
+    price: 404.23
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9507'),
+    category: 'Sports',
+    model: 'Model D',
+    producer: 'Producer X',
+    price: 133.2
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9508'),
+    category: 'Clothing',
+    model: 'Model C',
+    producer: 'Producer X',
+    price: 100.97
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9509'),
+    category: 'Clothing',
+    model: 'Model B',
+    producer: 'Producer X',
+    price: 945.38
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee950a'),
+    category: 'Electronics',
+    model: 'Model E',
+    producer: 'Producer Z',
+    price: 93.9
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee950b'),
+    category: 'Electronics',
+    model: 'Model A',
+    producer: 'Producer Y',
+    price: 119.78
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee950c'),
+    category: 'Electronics',
+    model: 'Model B',
+    producer: 'Producer W',
+    price: 45.51
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee950d'),
+    category: 'Sports',
+    model: 'Model A',
+    producer: 'Producer Y',
+    price: 523.06
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee950e'),
+    category: 'Sports',
+    model: 'Model D',
+    producer: 'Producer Z',
+    price: 965.17
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee950f'),
+    category: 'Clothing',
+    model: 'Model E',
+    producer: 'Producer Y',
+    price: 247.24
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9510'),
+    category: 'Clothing',
+    model: 'Model A',
+    producer: 'Producer Y',
+    price: 575.46
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9511'),
+    category: 'Food',
+    model: 'Model E',
+    producer: 'Producer Z',
+    price: 382
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9512'),
+    category: 'Food',
+    model: 'Model C',
+    producer: 'Producer V',
+    price: 507.04
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9513'),
+    category: 'Food',
+    model: 'Model B',
+    producer: 'Producer V',
+    price: 958.31
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9514'),
+    category: 'Sports',
+    model: 'Model E',
+    producer: 'Producer Z',
+    price: 767.63
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9515'),
+    category: 'Furniture',
+    model: 'Model B',
+    producer: 'Producer Z',
+    price: 482.61
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9516'),
+    category: 'Sports',
+    model: 'Model A',
+    producer: 'Producer V',
+    price: 524.58
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9517'),
+    category: 'Electronics',
+    model: 'Model A',
+    producer: 'Producer W',
+    price: 587.11
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9518'),
+    category: 'Clothing',
+    model: 'Model D',
+    producer: 'Producer W',
+    price: 435.86
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9519'),
+    category: 'Food',
+    model: 'Model A',
+    producer: 'Producer X',
+    price: 958.2
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee951a'),
+    category: 'Sports',
+    model: 'Model B',
+    producer: 'Producer W',
+    price: 45.34
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee951b'),
+    category: 'Sports',
+    model: 'Model D',
+    producer: 'Producer W',
+    price: 250.93
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee951c'),
+    category: 'Electronics',
+    model: 'Model A',
+    producer: 'Producer V',
+    price: 119.99
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee951d'),
+    category: 'Furniture',
+    model: 'Model A',
+    producer: 'Producer Z',
+    price: 353.07
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee951e'),
+    category: 'Clothing',
+    model: 'Model C',
+    producer: 'Producer W',
+    price: 967.05
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee951f'),
+    category: 'Furniture',
+    model: 'Model E',
+    producer: 'Producer Z',
+    price: 274.87
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9520'),
+    category: 'Food',
+    model: 'Model C',
+    producer: 'Producer Y',
+    price: 833.74
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9521'),
+    category: 'Food',
+    model: 'Model E',
+    producer: 'Producer V',
+    price: 301.2
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9522'),
+    category: 'Electronics',
+    model: 'Model D',
+    producer: 'Producer Y',
+    price: 450.45
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9523'),
+    category: 'Electronics',
+    model: 'Model C',
+    producer: 'Producer V',
+    price: 930.54
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9524'),
+    category: 'Food',
+    model: 'Model D',
+    producer: 'Producer W',
+    price: 772.7
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9525'),
+    category: 'Electronics',
+    model: 'Model B',
+    producer: 'Producer Y',
+    price: 527.02
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9526'),
+    category: 'Sports',
+    model: 'Model B',
+    producer: 'Producer V',
+    price: 482.87
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9527'),
+    category: 'Sports',
+    model: 'Model C',
+    producer: 'Producer Z',
+    price: 589.82
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9528'),
+    category: 'Sports',
+    model: 'Model C',
+    producer: 'Producer W',
+    price: 871.05
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9529'),
+    category: 'Furniture',
+    model: 'Model B',
+    producer: 'Producer Z',
+    price: 379.9
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee952a'),
+    category: 'Electronics',
+    model: 'Model A',
+    producer: 'Producer V',
+    price: 157.26
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee952b'),
+    category: 'Furniture',
+    model: 'Model C',
+    producer: 'Producer Z',
+    price: 226.87
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee952c'),
+    category: 'Sports',
+    model: 'Model D',
+    producer: 'Producer Z',
+    price: 821.69
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee952d'),
+    category: 'Furniture',
+    model: 'Model D',
+    producer: 'Producer Z',
+    price: 346.34
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee952e'),
+    category: 'Clothing',
+    model: 'Model D',
+    producer: 'Producer Z',
+    price: 649.12
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee952f'),
+    category: 'Food',
+    model: 'Model D',
+    producer: 'Producer X',
+    price: 666.39
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9530'),
+    category: 'Food',
+    model: 'Model A',
+    producer: 'Producer Z',
+    price: 52.86
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9531'),
+    category: 'Clothing',
+    model: 'Model B',
+    producer: 'Producer Z',
+    price: 745.07
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9532'),
+    category: 'Sports',
+    model: 'Model B',
+    producer: 'Producer W',
+    price: 938.95
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9533'),
+    category: 'Food',
+    model: 'Model C',
+    producer: 'Producer Y',
+    price: 840.69
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9534'),
+    category: 'Sports',
+    model: 'Model A',
+    producer: 'Producer W',
+    price: 844.25
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9535'),
+    category: 'Furniture',
+    model: 'Model C',
+    producer: 'Producer Z',
+    price: 627.4
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9536'),
+    category: 'Food',
+    model: 'Model D',
+    producer: 'Producer W',
+    price: 675.87
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9537'),
+    category: 'Furniture',
+    model: 'Model E',
+    producer: 'Producer X',
+    price: 373
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9538'),
+    category: 'Furniture',
+    model: 'Model B',
+    producer: 'Producer Z',
+    price: 592.86
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9539'),
+    category: 'Furniture',
+    model: 'Model C',
+    producer: 'Producer Z',
+    price: 660.22
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee953a'),
+    category: 'Sports',
+    model: 'Model A',
+    producer: 'Producer Y',
+    price: 768.76
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee953b'),
+    category: 'Sports',
+    model: 'Model E',
+    producer: 'Producer X',
+    price: 124.58
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee953c'),
+    category: 'Clothing',
+    model: 'Model A',
+    producer: 'Producer Z',
+    price: 326.67
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee953d'),
+    category: 'Furniture',
+    model: 'Model E',
+    producer: 'Producer Y',
+    price: 672.24
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee953e'),
+    category: 'Furniture',
+    model: 'Model D',
+    producer: 'Producer Z',
+    price: 957.63
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee953f'),
+    category: 'Clothing',
+    model: 'Model A',
+    producer: 'Producer W',
+    price: 779.24
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9540'),
+    category: 'Sports',
+    model: 'Model E',
+    producer: 'Producer Z',
+    price: 249.7
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9541'),
+    category: 'Clothing',
+    model: 'Model E',
+    producer: 'Producer X',
+    price: 413.11
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9542'),
+    category: 'Furniture',
+    model: 'Model B',
+    producer: 'Producer X',
+    price: 92.99
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9543'),
+    category: 'Electronics',
+    model: 'Model A',
+    producer: 'Producer Y',
+    price: 187.08
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9544'),
+    category: 'Sports',
+    model: 'Model E',
+    producer: 'Producer Y',
+    price: 641.89
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9545'),
+    category: 'Furniture',
+    model: 'Model B',
+    producer: 'Producer Z',
+    price: 596.94
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9546'),
+    category: 'Clothing',
+    model: 'Model C',
+    producer: 'Producer W',
+    price: 664.92
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9547'),
+    category: 'Electronics',
+    model: 'Model A',
+    producer: 'Producer Y',
+    price: 921.35
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9548'),
+    category: 'Electronics',
+    model: 'Model A',
+    producer: 'Producer Y',
+    price: 102.75
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9549'),
+    category: 'Food',
+    model: 'Model D',
+    producer: 'Producer Z',
+    price: 966.91
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee954a'),
+    category: 'Sports',
+    model: 'Model A',
+    producer: 'Producer Y',
+    price: 546.44
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee954b'),
+    category: 'Clothing',
+    model: 'Model B',
+    producer: 'Producer Z',
+    price: 843.14
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee954c'),
+    category: 'Clothing',
+    model: 'Model D',
+    producer: 'Producer W',
+    price: 600.72
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee954d'),
+    category: 'Clothing',
+    model: 'Model C',
+    producer: 'Producer Z',
+    price: 152.15
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee954e'),
+    category: 'Sports',
+    model: 'Model D',
+    producer: 'Producer V',
+    price: 669.3
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee954f'),
+    category: 'Sports',
+    model: 'Model C',
+    producer: 'Producer W',
+    price: 965.11
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9550'),
+    category: 'Clothing',
+    model: 'Model B',
+    producer: 'Producer X',
+    price: 250.59
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9551'),
+    category: 'Clothing',
+    model: 'Model B',
+    producer: 'Producer X',
+    price: 83.07
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9552'),
+    category: 'Furniture',
+    model: 'Model A',
+    producer: 'Producer W',
+    price: 108.36
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9553'),
+    category: 'Electronics',
+    model: 'Model E',
+    producer: 'Producer W',
+    price: 60
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9554'),
+    category: 'Food',
+    model: 'Model A',
+    producer: 'Producer X',
+    price: 224.24
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9555'),
+    category: 'Clothing',
+    model: 'Model E',
+    producer: 'Producer Z',
+    price: 74
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9556'),
+    category: 'Food',
+    model: 'Model C',
+    producer: 'Producer Z',
+    price: 728.31
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9557'),
+    category: 'Food',
+    model: 'Model B',
+    producer: 'Producer W',
+    price: 647.22
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9558'),
+    category: 'Food',
+    model: 'Model C',
+    producer: 'Producer Y',
+    price: 776.15
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9559'),
+    category: 'Food',
+    model: 'Model D',
+    producer: 'Producer Z',
+    price: 407.36
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee955a'),
+    category: 'Furniture',
+    model: 'Model B',
+    producer: 'Producer W',
+    price: 223.47
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee955b'),
+    category: 'Furniture',
+    model: 'Model B',
+    producer: 'Producer X',
+    price: 960.97
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee955c'),
+    category: 'Furniture',
+    model: 'Model C',
+    producer: 'Producer W',
+    price: 96.06
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee955d'),
+    category: 'Electronics',
+    model: 'Model D',
+    producer: 'Producer W',
+    price: 503.99
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee955e'),
+    category: 'Furniture',
+    model: 'Model D',
+    producer: 'Producer Z',
+    price: 606.21
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee955f'),
+    category: 'Furniture',
+    model: 'Model D',
+    producer: 'Producer X',
+    price: 357.26
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9560'),
+    category: 'Furniture',
+    model: 'Model D',
+    producer: 'Producer W',
+    price: 900.55
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9561'),
+    category: 'Sports',
+    model: 'Model B',
+    producer: 'Producer V',
+    price: 207.29
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9562'),
+    category: 'Clothing',
+    model: 'Model D',
+    producer: 'Producer Y',
+    price: 872.3
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9563'),
+    category: 'Clothing',
+    model: 'Model C',
+    producer: 'Producer Y',
+    price: 72.98
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9564'),
+    category: 'Sports',
+    model: 'Model B',
+    producer: 'Producer W',
+    price: 120.25
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9565'),
+    category: 'Sports',
+    model: 'Model E',
+    producer: 'Producer Y',
+    price: 50.08
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9566'),
+    category: 'Food',
+    model: 'Model D',
+    producer: 'Producer X',
+    price: 483.74
   }
 ]
 ------------------------Task 2: Number of items in certain categories-----------------------
 [
-  { _id: 'Food', count: 20 },
-  { _id: 'Electronics', count: 15 },
-  { _id: 'Sports', count: 23 },
-  { _id: 'Furniture', count: 22 },
-  { _id: 'Clothing', count: 20 }
+  { _id: 'Clothing', count: 40 },
+  { _id: 'Food', count: 40 },
+  { _id: 'Sports', count: 46 },
+  { _id: 'Electronics', count: 30 },
+  { _id: 'Furniture', count: 44 }
 ]
 ------------------------Task 3: Number of items categories------------------------------------
 Number of unique categories 5
@@ -778,6 +1478,48 @@ Task 5.1; model == Model A and 100 <= price <= 200     [
     model: 'Model A',
     producer: 'Producer W',
     price: 108.36
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee950b'),
+    category: 'Electronics',
+    model: 'Model A',
+    producer: 'Producer Y',
+    price: 119.78
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee951c'),
+    category: 'Electronics',
+    model: 'Model A',
+    producer: 'Producer V',
+    price: 119.99
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee952a'),
+    category: 'Electronics',
+    model: 'Model A',
+    producer: 'Producer V',
+    price: 157.26
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9543'),
+    category: 'Electronics',
+    model: 'Model A',
+    producer: 'Producer Y',
+    price: 187.08
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9548'),
+    category: 'Electronics',
+    model: 'Model A',
+    producer: 'Producer Y',
+    price: 102.75
+  },
+  {
+    _id: ObjectId('65e38a6fd9fe28381fee9552'),
+    category: 'Furniture',
+    model: 'Model A',
+    producer: 'Producer W',
+    price: 108.36
   }
 ]
 Task 5.2; model == Model A or producer == Producer Z     [
@@ -793,7 +1535,7 @@ Task 5.2; model == Model A or producer == Producer Z     [
     category: 'Electronics',
     model: 'Model A',
     producer: 'Producer Y',
-    price: 219.78,
+    price: 419.78,
     has_defect: true
   },
   {
@@ -801,7 +1543,7 @@ Task 5.2; model == Model A or producer == Producer Z     [
     category: 'Sports',
     model: 'Model A',
     producer: 'Producer Y',
-    price: 623.06,
+    price: 823.06,
     has_defect: true
   },
   {
@@ -823,7 +1565,7 @@ Task 5.2; model == Model A or producer == Producer Z     [
     category: 'Clothing',
     model: 'Model A',
     producer: 'Producer Y',
-    price: 675.46,
+    price: 875.46,
     has_defect: true
   },
   {
@@ -838,7 +1580,7 @@ Task 5.2; model == Model A or producer == Producer Z     [
     category: 'Food',
     model: 'Model A',
     producer: 'Producer X',
-    price: 1058.2,
+    price: 1258.2,
     has_defect: true
   },
   {
@@ -940,7 +1682,7 @@ Task 5.3; producer in Producer Z, Producer X     [
     category: 'Clothing',
     model: 'Model B',
     producer: 'Producer X',
-    price: 1045.38,
+    price: 1245.38,
     has_defect: true
   },
   {
@@ -969,7 +1711,7 @@ Task 5.3; producer in Producer Z, Producer X     [
     category: 'Food',
     model: 'Model A',
     producer: 'Producer X',
-    price: 1058.2,
+    price: 1258.2,
     has_defect: true
   },
   {
@@ -984,7 +1726,7 @@ Task 5.3; producer in Producer Z, Producer X     [
     category: 'Sports',
     model: 'Model D',
     producer: 'Producer X',
-    price: 233.2,
+    price: 433.2,
     has_defect: true
   },
   {
@@ -992,7 +1734,7 @@ Task 5.3; producer in Producer Z, Producer X     [
     category: 'Food',
     model: 'Model D',
     producer: 'Producer X',
-    price: 583.74,
+    price: 783.74,
     has_defect: true
   },
   {
@@ -1014,7 +1756,7 @@ Task 5.3; producer in Producer Z, Producer X     [
     category: 'Food',
     model: 'Model B',
     producer: 'Producer X',
-    price: 351.15,
+    price: 551.15,
     has_defect: true
   },
   {
@@ -1022,7 +1764,7 @@ Task 5.3; producer in Producer Z, Producer X     [
     category: 'Clothing',
     model: 'Model C',
     producer: 'Producer X',
-    price: 200.97,
+    price: 400.97,
     has_defect: true
   },
   {
@@ -1072,7 +1814,7 @@ Task 5.3; producer in Producer Z, Producer X     [
     category: 'Food',
     model: 'Model D',
     producer: 'Producer X',
-    price: 766.39,
+    price: 966.39,
     has_defect: true
   }
 ]
@@ -1081,15 +1823,15 @@ Type "it" for more
 Task 6.1; setting price to 100 when producer == Producer Y and model == model E     {
   acknowledged: true,
   insertedId: null,
-  matchedCount: 5,
-  modifiedCount: 5,
+  matchedCount: 10,
+  modifiedCount: 10,
   upsertedCount: 0
 }
 Task 6.2; adding value has_defect to producer == Producer X or model == model A     {
   acknowledged: true,
   insertedId: null,
-  matchedCount: 16,
-  modifiedCount: 0,
+  matchedCount: 32,
+  modifiedCount: 16,
   upsertedCount: 0
 }
 ------------------------Task 7: Find items where has_value exists----------------------------------------
@@ -1099,7 +1841,7 @@ Task 7; has_values =     [
     category: 'Electronics',
     model: 'Model A',
     producer: 'Producer Y',
-    price: 219.78,
+    price: 419.78,
     has_defect: true
   },
   {
@@ -1107,7 +1849,7 @@ Task 7; has_values =     [
     category: 'Clothing',
     model: 'Model B',
     producer: 'Producer X',
-    price: 1045.38,
+    price: 1245.38,
     has_defect: true
   },
   {
@@ -1115,7 +1857,7 @@ Task 7; has_values =     [
     category: 'Sports',
     model: 'Model A',
     producer: 'Producer Y',
-    price: 623.06,
+    price: 823.06,
     has_defect: true
   },
   {
@@ -1131,7 +1873,7 @@ Task 7; has_values =     [
     category: 'Clothing',
     model: 'Model A',
     producer: 'Producer Y',
-    price: 675.46,
+    price: 875.46,
     has_defect: true
   },
   {
@@ -1139,7 +1881,7 @@ Task 7; has_values =     [
     category: 'Food',
     model: 'Model A',
     producer: 'Producer X',
-    price: 1058.2,
+    price: 1258.2,
     has_defect: true
   },
   {
@@ -1147,7 +1889,7 @@ Task 7; has_values =     [
     category: 'Sports',
     model: 'Model D',
     producer: 'Producer X',
-    price: 233.2,
+    price: 433.2,
     has_defect: true
   },
   {
@@ -1155,7 +1897,7 @@ Task 7; has_values =     [
     category: 'Food',
     model: 'Model D',
     producer: 'Producer X',
-    price: 583.74,
+    price: 783.74,
     has_defect: true
   },
   {
@@ -1171,7 +1913,7 @@ Task 7; has_values =     [
     category: 'Food',
     model: 'Model B',
     producer: 'Producer X',
-    price: 351.15,
+    price: 551.15,
     has_defect: true
   },
   {
@@ -1179,7 +1921,7 @@ Task 7; has_values =     [
     category: 'Clothing',
     model: 'Model C',
     producer: 'Producer X',
-    price: 200.97,
+    price: 400.97,
     has_defect: true
   },
   {
@@ -1187,7 +1929,7 @@ Task 7; has_values =     [
     category: 'Electronics',
     model: 'Model D',
     producer: 'Producer Y',
-    price: 550.45,
+    price: 750.45,
     has_defect: true
   },
   {
@@ -1195,7 +1937,7 @@ Task 7; has_values =     [
     category: 'Food',
     model: 'Model C',
     producer: 'Producer Y',
-    price: 933.74,
+    price: 1133.74,
     has_defect: true
   },
   {
@@ -1203,7 +1945,7 @@ Task 7; has_values =     [
     category: 'Electronics',
     model: 'Model B',
     producer: 'Producer Y',
-    price: 627.02,
+    price: 827.02,
     has_defect: true
   },
   {
@@ -1211,7 +1953,7 @@ Task 7; has_values =     [
     category: 'Food',
     model: 'Model D',
     producer: 'Producer X',
-    price: 766.39,
+    price: 966.39,
     has_defect: true
   },
   {
@@ -1219,7 +1961,7 @@ Task 7; has_values =     [
     category: 'Food',
     model: 'Model C',
     producer: 'Producer Y',
-    price: 940.69,
+    price: 1140.69,
     has_defect: true
   },
   {
@@ -1227,7 +1969,7 @@ Task 7; has_values =     [
     category: 'Sports',
     model: 'Model A',
     producer: 'Producer Y',
-    price: 868.76,
+    price: 1068.76,
     has_defect: true
   },
   {
@@ -1235,7 +1977,7 @@ Task 7; has_values =     [
     category: 'Furniture',
     model: 'Model E',
     producer: 'Producer X',
-    price: 473,
+    price: 673,
     has_defect: true
   },
   {
@@ -1251,7 +1993,7 @@ Task 7; has_values =     [
     category: 'Sports',
     model: 'Model E',
     producer: 'Producer X',
-    price: 224.57999999999998,
+    price: 424.58,
     has_defect: true
   }
 ]
@@ -1260,7 +2002,7 @@ Type "it" for more
 Task 8; Incrementing where has_defect = true by 100     {
   acknowledged: true,
   insertedId: null,
-  matchedCount: 36,
-  modifiedCount: 36,
+  matchedCount: 52,
+  modifiedCount: 52,
   upsertedCount: 0
 }

@@ -1,0 +1,6112 @@
+Starting experiment with orders
+------------------------Task 1: Get all data------------------------------------------------
+[
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe63a'),
+    order_number: 9785517,
+    date: '02/09/2022 11:05 PM',
+    total_sum: 29539,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        908417,
+        964424
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 843938
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5c',
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b57',
+      '65dd0bc901d78a20ef981b3d',
+      '65dd0bc901d78a20ef981b57',
+      '65dd0bc901d78a20ef981b57',
+      '65dd0bc901d78a20ef981b57'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe63b'),
+    order_number: 6587994,
+    date: '09/25/2013 09:13 AM',
+    total_sum: 54322,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        899864,
+        830046
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 932807
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b70'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe63c'),
+    order_number: 9046110,
+    date: '05/29/2020 09:38 AM',
+    total_sum: 66771,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        487924,
+        827122
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 339021
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3e',
+      '65dd0bc901d78a20ef981b4b',
+      '65dd0bc901d78a20ef981b50'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe63d'),
+    order_number: 3462401,
+    date: '05/12/2008 08:05 AM',
+    total_sum: 87408,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        112838,
+        79971
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 236600
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b69',
+      '65dd0bc901d78a20ef981b3c',
+      '65dd0bc901d78a20ef981b66'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe63e'),
+    order_number: 1515409,
+    date: '09/15/2013 06:52 PM',
+    total_sum: 73009,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        11022,
+        626548
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 261930
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b83',
+      '65dd0bc901d78a20ef981b48',
+      '65dd0bc901d78a20ef981b5e',
+      '65dd0bc901d78a20ef981b59'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe63f'),
+    order_number: 3840901,
+    date: '07/04/2017 03:27 AM',
+    total_sum: 90559,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        784708,
+        908851
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 861213
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b86'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe640'),
+    order_number: 3140401,
+    date: '11/26/2014 03:10 AM',
+    total_sum: 32920,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        432405,
+        872138
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 614141
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b64',
+      '65dd0bc901d78a20ef981b80',
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b71'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe641'),
+    order_number: 8413305,
+    date: '08/25/2019 07:38 AM',
+    total_sum: 94770,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        72134,
+        617944
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 966634
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3d',
+      '65dd0bc901d78a20ef981b3f',
+      '65dd0bc901d78a20ef981b32'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe642'),
+    order_number: 3006632,
+    date: '03/15/2016 09:55 PM',
+    total_sum: 57699,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        446169,
+        936515
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 736058
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3a',
+      '65dd0bc901d78a20ef981b54',
+      '65dd0bc901d78a20ef981b40',
+      '65dd0bc901d78a20ef981b5e'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe643'),
+    order_number: 9413397,
+    date: '11/30/2011 01:08 PM',
+    total_sum: 85906,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        934671,
+        937488
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 947771
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b52'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe644'),
+    order_number: 8947867,
+    date: '06/16/2019 08:00 PM',
+    total_sum: 53759,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        236941,
+        969145
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 743303
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b6f',
+      '65dd0bc901d78a20ef981b5f',
+      '65dd0bc901d78a20ef981b37'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe645'),
+    order_number: 1708879,
+    date: '01/27/2022 08:48 PM',
+    total_sum: 95420,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        846458,
+        966228
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 785430
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b63',
+      '65dd0bc901d78a20ef981b51'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe646'),
+    order_number: 1484976,
+    date: '09/08/2016 10:46 PM',
+    total_sum: 28692,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        45734,
+        168767
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 657146
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b4c',
+      '65dd0bc901d78a20ef981b25',
+      '65dd0bc901d78a20ef981b33',
+      '65dd0bc901d78a20ef981b3f'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe647'),
+    order_number: 1144068,
+    date: '05/19/2018 04:58 PM',
+    total_sum: 66789,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        896898,
+        936487
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 822030
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b67',
+      '65dd0bc901d78a20ef981b6c',
+      '65dd0bc901d78a20ef981b4c',
+      '65dd0bc901d78a20ef981b53'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe648'),
+    order_number: 1423673,
+    date: '04/24/2011 06:00 AM',
+    total_sum: 16327,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        35870,
+        418783
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 371523
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b83'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe649'),
+    order_number: 3016292,
+    date: '12/13/2018 02:48 PM',
+    total_sum: 27807,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        101874,
+        451307
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 456191
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b6e',
+      '65dd0bc901d78a20ef981b82'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe64a'),
+    order_number: 177795,
+    date: '05/09/2020 03:45 PM',
+    total_sum: 64027,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        554890,
+        283121
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 40480
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b66',
+      '65dd0bc901d78a20ef981b6f'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe64b'),
+    order_number: 8566203,
+    date: '06/26/2011 12:46 PM',
+    total_sum: 15467,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        91103,
+        361082
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 979086
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b33',
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b37'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe64c'),
+    order_number: 9480291,
+    date: '06/16/2018 12:23 AM',
+    total_sum: 59597,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        322964,
+        497230
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 138950
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b63',
+      '65dd0bc901d78a20ef981b32',
+      '65dd0bc901d78a20ef981b3b',
+      '65dd0bc901d78a20ef981b4e'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe64d'),
+    order_number: 871224,
+    date: '11/20/2011 06:22 AM',
+    total_sum: 15882,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        930246,
+        473676
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 685395
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3c',
+      '65dd0bc901d78a20ef981b6c',
+      '65dd0bc901d78a20ef981b2b',
+      '65dd0bc901d78a20ef981b55'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe64e'),
+    order_number: 4443888,
+    date: '01/18/2009 12:21 PM',
+    total_sum: 18666,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        360436,
+        594983
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 161442
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b2d'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe64f'),
+    order_number: 1716689,
+    date: '01/04/2023 04:12 PM',
+    total_sum: 74741,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        502224,
+        560739
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 335116
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b52'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe650'),
+    order_number: 7696974,
+    date: '03/19/2022 11:04 AM',
+    total_sum: 63209,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        976921,
+        489459
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 529202
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b64',
+      '65dd0bc901d78a20ef981b5e',
+      '65dd0bc901d78a20ef981b86',
+      '65dd0bc901d78a20ef981b25'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe651'),
+    order_number: 5642344,
+    date: '12/16/2010 05:53 PM',
+    total_sum: 76695,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        194870,
+        872963
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 428625
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5a',
+      '65dd0bc901d78a20ef981b63',
+      '65dd0bc901d78a20ef981b6f'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe652'),
+    order_number: 5021099,
+    date: '09/16/2015 02:21 AM',
+    total_sum: 30190,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        714099,
+        947522
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 476289
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b31',
+      '65dd0bc901d78a20ef981b62'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe653'),
+    order_number: 8775643,
+    date: '06/03/2011 07:25 PM',
+    total_sum: 98252,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        47683,
+        244468
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 619059
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b4b',
+      '65dd0bc901d78a20ef981b70'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe654'),
+    order_number: 9016642,
+    date: '07/26/2015 03:43 AM',
+    total_sum: 80528,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        471894,
+        216365
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 242021
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b2b',
+      '65dd0bc901d78a20ef981b27',
+      '65dd0bc901d78a20ef981b6f',
+      '65dd0bc901d78a20ef981b69'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe655'),
+    order_number: 4390532,
+    date: '07/12/2015 04:45 AM',
+    total_sum: 71809,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        620762,
+        774656
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Tarasov',
+      cardId: 832735
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3b',
+      '65dd0bc901d78a20ef981b52',
+      '65dd0bc901d78a20ef981b3f',
+      '65dd0bc901d78a20ef981b74'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe656'),
+    order_number: 3947819,
+    date: '06/02/2008 12:16 PM',
+    total_sum: 59663,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        309058,
+        748065
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 381513
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b62'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe657'),
+    order_number: 5794538,
+    date: '08/06/2021 02:40 PM',
+    total_sum: 37337,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        315821,
+        364290
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 145586
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b7e',
+      '65dd0bc901d78a20ef981b76'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe658'),
+    order_number: 2956055,
+    date: '03/22/2012 01:22 PM',
+    total_sum: 61965,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        778866,
+        735222
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 682310
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b6a',
+      '65dd0bc901d78a20ef981b42',
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b31'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe659'),
+    order_number: 3536286,
+    date: '06/18/2009 08:45 PM',
+    total_sum: 11208,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        733270,
+        534245
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 756751
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b80',
+      '65dd0bc901d78a20ef981b27',
+      '65dd0bc901d78a20ef981b5e'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe65a'),
+    order_number: 6118096,
+    date: '10/09/2008 03:45 PM',
+    total_sum: 14342,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        850042,
+        717300
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 662836
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b41',
+      '65dd0bc901d78a20ef981b33',
+      '65dd0bc901d78a20ef981b78',
+      '65dd0bc901d78a20ef981b4c'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe65b'),
+    order_number: 6980886,
+    date: '06/12/2013 11:15 AM',
+    total_sum: 29135,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        646604,
+        121896
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 39366
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b2a',
+      '65dd0bc901d78a20ef981b6f',
+      '65dd0bc901d78a20ef981b6b'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe65c'),
+    order_number: 9006735,
+    date: '07/17/2022 01:41 AM',
+    total_sum: 77013,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        567743,
+        707063
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 705041
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b60',
+      '65dd0bc901d78a20ef981b3a',
+      '65dd0bc901d78a20ef981b84'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe65d'),
+    order_number: 4655127,
+    date: '04/03/2015 06:56 AM',
+    total_sum: 17335,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        35060,
+        330809
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 975768
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b72',
+      '65dd0bc901d78a20ef981b78',
+      '65dd0bc901d78a20ef981b69',
+      '65dd0bc901d78a20ef981b60'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe65e'),
+    order_number: 291379,
+    date: '07/13/2012 03:01 AM',
+    total_sum: 53004,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        68794,
+        198084
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 773770
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5a',
+      '65dd0bc901d78a20ef981b41',
+      '65dd0bc901d78a20ef981b75'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe65f'),
+    order_number: 4546403,
+    date: '10/28/2017 04:57 AM',
+    total_sum: 79895,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        399228,
+        654351
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 468539
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b23',
+      '65dd0bc901d78a20ef981b4f',
+      '65dd0bc901d78a20ef981b2e',
+      '65dd0bc901d78a20ef981b32'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe660'),
+    order_number: 8303544,
+    date: '06/15/2016 04:05 AM',
+    total_sum: 46083,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        87783,
+        646297
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Semen Tarasov',
+      cardId: 187144
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b7e',
+      '65dd0bc901d78a20ef981b37'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe661'),
+    order_number: 4321335,
+    date: '08/07/2016 02:50 PM',
+    total_sum: 68330,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        880666,
+        125529
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 411660
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b45',
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b82'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe662'),
+    order_number: 8203330,
+    date: '01/03/2015 01:12 PM',
+    total_sum: 90322,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        616041,
+        616919
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 230365
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b67',
+      '65dd0bc901d78a20ef981b4c',
+      '65dd0bc901d78a20ef981b39',
+      '65dd0bc901d78a20ef981b83'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe663'),
+    order_number: 398626,
+    date: '12/20/2009 12:47 AM',
+    total_sum: 1036,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        343796,
+        558737
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 580944
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b7e',
+      '65dd0bc901d78a20ef981b3d'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe664'),
+    order_number: 7448607,
+    date: '05/15/2019 12:32 AM',
+    total_sum: 91700,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        722858,
+        865446
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 820269
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b39'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe665'),
+    order_number: 4066055,
+    date: '03/05/2009 09:32 PM',
+    total_sum: 52910,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        798728,
+        961002
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 800609
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3d',
+      '65dd0bc901d78a20ef981b62'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe666'),
+    order_number: 3421439,
+    date: '04/08/2019 10:27 PM',
+    total_sum: 75496,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        121925,
+        977949
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 291347
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b46',
+      '65dd0bc901d78a20ef981b84',
+      '65dd0bc901d78a20ef981b58',
+      '65dd0bc901d78a20ef981b53'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe667'),
+    order_number: 343970,
+    date: '03/29/2015 04:42 AM',
+    total_sum: 69308,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        355992,
+        420575
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 670089
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b34',
+      '65dd0bc901d78a20ef981b29',
+      '65dd0bc901d78a20ef981b3e'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe668'),
+    order_number: 6990768,
+    date: '05/26/2016 09:49 PM',
+    total_sum: 67672,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        165289,
+        639141
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 429270
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5f'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe669'),
+    order_number: 2643909,
+    date: '09/17/2021 12:30 AM',
+    total_sum: 72048,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        339080,
+        352297
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 486371
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b37',
+      '65dd0bc901d78a20ef981b6d'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe66a'),
+    order_number: 1305992,
+    date: '05/17/2010 02:39 AM',
+    total_sum: 77678,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        131965,
+        331484
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 205926
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b6d'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe66b'),
+    order_number: 5519902,
+    date: '05/26/2015 03:17 AM',
+    total_sum: 16524,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        156675,
+        362239
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 745832
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b67',
+      '65dd0bc901d78a20ef981b66'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe66c'),
+    order_number: 2345736,
+    date: '09/21/2011 02:12 PM',
+    total_sum: 48906,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        947123,
+        398610
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 596619
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b77',
+      '65dd0bc901d78a20ef981b43'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe66d'),
+    order_number: 5369375,
+    date: '04/13/2020 08:47 PM',
+    total_sum: 58541,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        2842,
+        983081
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 800368
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b4a'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe66e'),
+    order_number: 8198553,
+    date: '02/02/2015 09:33 PM',
+    total_sum: 331,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        966930,
+        980815
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Semen Tarasov',
+      cardId: 538463
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b23',
+      '65dd0bc901d78a20ef981b39',
+      '65dd0bc901d78a20ef981b4f',
+      '65dd0bc901d78a20ef981b66'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe66f'),
+    order_number: 513124,
+    date: '09/05/2016 05:29 AM',
+    total_sum: 6470,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        985443,
+        131081
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 359242
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b4a',
+      '65dd0bc901d78a20ef981b35'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe670'),
+    order_number: 672440,
+    date: '05/22/2012 08:14 AM',
+    total_sum: 78572,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        566857,
+        116277
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 517677
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b33',
+      '65dd0bc901d78a20ef981b3e',
+      '65dd0bc901d78a20ef981b30'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe671'),
+    order_number: 5476591,
+    date: '12/09/2020 05:22 PM',
+    total_sum: 45580,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        749633,
+        440206
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 478339
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b6a'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe672'),
+    order_number: 4478623,
+    date: '11/02/2010 01:11 PM',
+    total_sum: 18848,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        647954,
+        255107
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 33750
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b70',
+      '65dd0bc901d78a20ef981b6f',
+      '65dd0bc901d78a20ef981b7f'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe673'),
+    order_number: 2398393,
+    date: '08/16/2021 06:28 PM',
+    total_sum: 74530,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        147644,
+        142044
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 423167
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b45'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe674'),
+    order_number: 7721219,
+    date: '01/29/2010 01:08 PM',
+    total_sum: 76040,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        643076,
+        274731
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 804611
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3f',
+      '65dd0bc901d78a20ef981b6c',
+      '65dd0bc901d78a20ef981b2d',
+      '65dd0bc901d78a20ef981b32'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe675'),
+    order_number: 8953419,
+    date: '09/15/2015 06:01 AM',
+    total_sum: 48875,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        464597,
+        129850
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 846657
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b40',
+      '65dd0bc901d78a20ef981b46'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe676'),
+    order_number: 5899544,
+    date: '03/17/2008 12:01 PM',
+    total_sum: 73537,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        251594,
+        300131
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 361345
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b69',
+      '65dd0bc901d78a20ef981b62',
+      '65dd0bc901d78a20ef981b52',
+      '65dd0bc901d78a20ef981b7d'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe677'),
+    order_number: 2017880,
+    date: '12/13/2012 08:37 PM',
+    total_sum: 76868,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        422905,
+        904419
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 437286
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b76'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe678'),
+    order_number: 7434365,
+    date: '05/19/2021 05:02 AM',
+    total_sum: 98126,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        448994,
+        566028
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 593847
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b41',
+      '65dd0bc901d78a20ef981b66',
+      '65dd0bc901d78a20ef981b5c',
+      '65dd0bc901d78a20ef981b51',
+      '65dd0bc901d78a20ef981b57',
+      '65dd0bc901d78a20ef981b57',
+      '65dd0bc901d78a20ef981b57'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe679'),
+    order_number: 1320854,
+    date: '01/16/2010 01:35 AM',
+    total_sum: 50577,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        529075,
+        297753
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 93385
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b23',
+      '65dd0bc901d78a20ef981b2b',
+      '65dd0bc901d78a20ef981b5d'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe67a'),
+    order_number: 8405225,
+    date: '06/03/2022 06:34 PM',
+    total_sum: 85205,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        291856,
+        236851
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 484701
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b7a'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe67b'),
+    order_number: 9598687,
+    date: '03/20/2019 09:39 PM',
+    total_sum: 99148,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        797753,
+        105639
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 288606
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5e',
+      '65dd0bc901d78a20ef981b5a',
+      '65dd0bc901d78a20ef981b7e',
+      '65dd0bc901d78a20ef981b2e'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe67c'),
+    order_number: 9697434,
+    date: '01/04/2010 07:43 AM',
+    total_sum: 3795,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        875411,
+        849728
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 619183
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b68'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe67d'),
+    order_number: 1190497,
+    date: '05/07/2012 08:11 PM',
+    total_sum: 98749,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        146120,
+        691538
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 820381
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b2a'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe67e'),
+    order_number: 5998698,
+    date: '04/03/2014 10:00 PM',
+    total_sum: 71033,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        912472,
+        157209
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 672993
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b24',
+      '65dd0bc901d78a20ef981b25',
+      '65dd0bc901d78a20ef981b3a',
+      '65dd0bc901d78a20ef981b47'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe67f'),
+    order_number: 9961637,
+    date: '08/06/2012 05:25 AM',
+    total_sum: 52367,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        987685,
+        778095
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 429839
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b85',
+      '65dd0bc901d78a20ef981b63',
+      '65dd0bc901d78a20ef981b84',
+      '65dd0bc901d78a20ef981b3f'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe680'),
+    order_number: 8117068,
+    date: '11/23/2022 10:33 AM',
+    total_sum: 29873,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        377078,
+        940998
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 273693
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b60',
+      '65dd0bc901d78a20ef981b3d'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe681'),
+    order_number: 5350930,
+    date: '04/23/2019 07:00 PM',
+    total_sum: 79808,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        426070,
+        646074
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 513097
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b84',
+      '65dd0bc901d78a20ef981b73',
+      '65dd0bc901d78a20ef981b44',
+      '65dd0bc901d78a20ef981b83'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe682'),
+    order_number: 9072478,
+    date: '10/29/2012 07:07 PM',
+    total_sum: 85804,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        949788,
+        894924
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 291501
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b28',
+      '65dd0bc901d78a20ef981b60'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe683'),
+    order_number: 5326406,
+    date: '12/03/2009 07:00 AM',
+    total_sum: 53911,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        179071,
+        574805
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 74223
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b38',
+      '65dd0bc901d78a20ef981b68',
+      '65dd0bc901d78a20ef981b78'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe684'),
+    order_number: 3701496,
+    date: '07/21/2012 11:01 PM',
+    total_sum: 83383,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        687057,
+        168927
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 225649
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b79',
+      '65dd0bc901d78a20ef981b7f',
+      '65dd0bc901d78a20ef981b72',
+      '65dd0bc901d78a20ef981b5d'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe685'),
+    order_number: 5979667,
+    date: '01/24/2016 11:56 PM',
+    total_sum: 95339,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        812372,
+        924055
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 924818
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b7a',
+      '65dd0bc901d78a20ef981b67',
+      '65dd0bc901d78a20ef981b2e'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe686'),
+    order_number: 3979780,
+    date: '12/29/2014 10:05 PM',
+    total_sum: 1233,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        441664,
+        799902
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 770978
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b26',
+      '65dd0bc901d78a20ef981b4f',
+      '65dd0bc901d78a20ef981b3c'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe687'),
+    order_number: 1844209,
+    date: '04/05/2016 05:56 AM',
+    total_sum: 4962,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        898129,
+        172616
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 621959
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b59',
+      '65dd0bc901d78a20ef981b33',
+      '65dd0bc901d78a20ef981b70',
+      '65dd0bc901d78a20ef981b26'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe688'),
+    order_number: 4802031,
+    date: '08/02/2023 07:56 PM',
+    total_sum: 14512,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        366773,
+        240569
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Semen Tarasov',
+      cardId: 227756
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b6a',
+      '65dd0bc901d78a20ef981b64',
+      '65dd0bc901d78a20ef981b70',
+      '65dd0bc901d78a20ef981b70'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe689'),
+    order_number: 9588630,
+    date: '07/18/2008 09:46 PM',
+    total_sum: 8046,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        319770,
+        754079
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 779622
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b4b',
+      '65dd0bc901d78a20ef981b64',
+      '65dd0bc901d78a20ef981b3d'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe68a'),
+    order_number: 2087637,
+    date: '09/11/2017 08:12 AM',
+    total_sum: 36304,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        27554,
+        25758
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 861088
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b48',
+      '65dd0bc901d78a20ef981b39'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe68b'),
+    order_number: 3042699,
+    date: '10/17/2016 06:24 AM',
+    total_sum: 78720,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        374869,
+        899537
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Tarasov',
+      cardId: 144995
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b53',
+      '65dd0bc901d78a20ef981b41',
+      '65dd0bc901d78a20ef981b31'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe68c'),
+    order_number: 9526416,
+    date: '09/25/2014 07:59 AM',
+    total_sum: 82840,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        90731,
+        175752
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 274798
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b38',
+      '65dd0bc901d78a20ef981b2a',
+      '65dd0bc901d78a20ef981b29'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe68d'),
+    order_number: 2488084,
+    date: '12/21/2019 10:41 AM',
+    total_sum: 49244,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        941747,
+        32838
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 939789
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b51'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe68e'),
+    order_number: 6491825,
+    date: '03/12/2018 10:11 AM',
+    total_sum: 61722,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        736242,
+        592625
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 647473
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b83',
+      '65dd0bc901d78a20ef981b36'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe68f'),
+    order_number: 4644761,
+    date: '10/21/2010 03:21 AM',
+    total_sum: 22774,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        87532,
+        794784
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 762452
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b33',
+      '65dd0bc901d78a20ef981b68',
+      '65dd0bc901d78a20ef981b2b'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe690'),
+    order_number: 4694108,
+    date: '07/21/2011 11:41 AM',
+    total_sum: 89250,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        479188,
+        699043
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 963355
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b25',
+      '65dd0bc901d78a20ef981b7e',
+      '65dd0bc901d78a20ef981b82'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe691'),
+    order_number: 5656209,
+    date: '11/14/2012 03:27 AM',
+    total_sum: 91891,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        381913,
+        488277
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Tarasov',
+      cardId: 686285
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b59',
+      '65dd0bc901d78a20ef981b3d',
+      '65dd0bc901d78a20ef981b51'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe692'),
+    order_number: 8898368,
+    date: '02/15/2017 11:12 PM',
+    total_sum: 72515,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        43878,
+        988660
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 154209
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b4e',
+      '65dd0bc901d78a20ef981b56'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe693'),
+    order_number: 4050217,
+    date: '09/23/2011 05:54 PM',
+    total_sum: 53290,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        309016,
+        155861
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 263914
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3b',
+      '65dd0bc901d78a20ef981b73',
+      '65dd0bc901d78a20ef981b4a',
+      '65dd0bc901d78a20ef981b64'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe694'),
+    order_number: 3176693,
+    date: '09/06/2015 10:22 PM',
+    total_sum: 95025,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        559193,
+        426487
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 944415
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b65',
+      '65dd0bc901d78a20ef981b5d',
+      '65dd0bc901d78a20ef981b49'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe695'),
+    order_number: 8703011,
+    date: '03/07/2011 06:53 AM',
+    total_sum: 77489,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        738681,
+        925947
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Semen Tarasov',
+      cardId: 403112
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b56'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe696'),
+    order_number: 2547410,
+    date: '03/18/2008 03:35 PM',
+    total_sum: 23756,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        372891,
+        470776
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 412081
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b4d',
+      '65dd0bc901d78a20ef981b34',
+      '65dd0bc901d78a20ef981b5b'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe697'),
+    order_number: 8304909,
+    date: '11/02/2011 03:18 PM',
+    total_sum: 82972,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        576416,
+        363461
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 478142
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b7a'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe698'),
+    order_number: 1629063,
+    date: '04/17/2022 12:21 PM',
+    total_sum: 89329,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        924061,
+        851859
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Tarasov',
+      cardId: 424017
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5f',
+      '65dd0bc901d78a20ef981b66'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe699'),
+    order_number: 7577266,
+    date: '11/22/2017 01:10 PM',
+    total_sum: 34869,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        514226,
+        303213
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 968286
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5e',
+      '65dd0bc901d78a20ef981b2c'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe69a'),
+    order_number: 9849312,
+    date: '03/27/2012 11:07 AM',
+    total_sum: 45529,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        196623,
+        232276
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 740625
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b80',
+      '65dd0bc901d78a20ef981b24',
+      '65dd0bc901d78a20ef981b55',
+      '65dd0bc901d78a20ef981b5a'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe69b'),
+    order_number: 4578904,
+    date: '05/01/2023 07:54 PM',
+    total_sum: 22917,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        171326,
+        210282
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 452525
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b7c'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe69c'),
+    order_number: 6655405,
+    date: '06/16/2009 02:51 AM',
+    total_sum: 55927,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        300249,
+        800068
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 628052
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b58',
+      '65dd0bc901d78a20ef981b3d',
+      '65dd0bc901d78a20ef981b4e',
+      '65dd0bc901d78a20ef981b6a'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe69d'),
+    order_number: 6921411,
+    date: '03/16/2022 09:57 AM',
+    total_sum: 1764,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        717357,
+        812533
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 533131
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b78',
+      '65dd0bc901d78a20ef981b6d',
+      '65dd0bc901d78a20ef981b86',
+      '65dd0bc901d78a20ef981b69'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418bc'),
+    order_number: 5476591,
+    date: '12/09/2020 05:22 PM',
+    total_sum: 45580,
+    customer: {
+      name: 'Andrii',
+      surname: 'Ivanov',
+      phones: [
+        749633,
+        440206
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 478339
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b6a'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418bd'),
+    order_number: 5794538,
+    date: '08/06/2021 02:40 PM',
+    total_sum: 37337,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        315821,
+        364290
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 145586
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b7e',
+      '65dd0bc901d78a20ef981b76'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418be'),
+    order_number: 3462401,
+    date: '05/12/2008 08:05 AM',
+    total_sum: 87408,
+    customer: {
+      name: 'Andrii',
+      surname: 'Ivanov',
+      phones: [
+        112838,
+        79971
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 236600
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b69',
+      '65dd0bc901d78a20ef981b3c',
+      '65dd0bc901d78a20ef981b66'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418bf'),
+    order_number: 3536286,
+    date: '06/18/2009 08:45 PM',
+    total_sum: 11208,
+    customer: {
+      name: 'Andrii',
+      surname: 'Tarasov',
+      phones: [
+        733270,
+        534245
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 756751
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b80',
+      '65dd0bc901d78a20ef981b27',
+      '65dd0bc901d78a20ef981b5e'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418c0'),
+    order_number: 672440,
+    date: '05/22/2012 08:14 AM',
+    total_sum: 78572,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        566857,
+        116277
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 517677
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b33',
+      '65dd0bc901d78a20ef981b3e',
+      '65dd0bc901d78a20ef981b30'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418c1'),
+    order_number: 3840901,
+    date: '07/04/2017 03:27 AM',
+    total_sum: 90559,
+    customer: {
+      name: 'Valery',
+      surname: 'Ivanov',
+      phones: [
+        784708,
+        908851
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 861213
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b86'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418c2'),
+    order_number: 9413397,
+    date: '11/30/2011 01:08 PM',
+    total_sum: 85906,
+    customer: {
+      name: 'Andrii',
+      surname: 'Pupko',
+      phones: [
+        934671,
+        937488
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 947771
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b52'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418c3'),
+    order_number: 1708879,
+    date: '01/27/2022 08:48 PM',
+    total_sum: 95420,
+    customer: {
+      name: 'Semen',
+      surname: 'Ivanov',
+      phones: [
+        846458,
+        966228
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 785430
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b63',
+      '65dd0bc901d78a20ef981b51'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418c4'),
+    order_number: 8413305,
+    date: '08/25/2019 07:38 AM',
+    total_sum: 94770,
+    customer: {
+      name: 'Valery',
+      surname: 'Tarasov',
+      phones: [
+        72134,
+        617944
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 966634
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3d',
+      '65dd0bc901d78a20ef981b3f',
+      '65dd0bc901d78a20ef981b32'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418c5'),
+    order_number: 8947867,
+    date: '06/16/2019 08:00 PM',
+    total_sum: 53759,
+    customer: {
+      name: 'Andrii',
+      surname: 'Tarasov',
+      phones: [
+        236941,
+        969145
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 743303
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b6f',
+      '65dd0bc901d78a20ef981b5f',
+      '65dd0bc901d78a20ef981b37'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418c6'),
+    order_number: 1423673,
+    date: '04/24/2011 06:00 AM',
+    total_sum: 16327,
+    customer: {
+      name: 'Semen',
+      surname: 'Pupko',
+      phones: [
+        35870,
+        418783
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 371523
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b83'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418c7'),
+    order_number: 1144068,
+    date: '05/19/2018 04:58 PM',
+    total_sum: 66789,
+    customer: {
+      name: 'Valery',
+      surname: 'Tarasov',
+      phones: [
+        896898,
+        936487
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 822030
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b67',
+      '65dd0bc901d78a20ef981b6c',
+      '65dd0bc901d78a20ef981b4c',
+      '65dd0bc901d78a20ef981b53'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418c8'),
+    order_number: 3016292,
+    date: '12/13/2018 02:48 PM',
+    total_sum: 27807,
+    customer: {
+      name: 'Valery',
+      surname: 'Ivanov',
+      phones: [
+        101874,
+        451307
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 456191
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b6e',
+      '65dd0bc901d78a20ef981b82'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418c9'),
+    order_number: 177795,
+    date: '05/09/2020 03:45 PM',
+    total_sum: 64027,
+    customer: {
+      name: 'Valery',
+      surname: 'Tarasov',
+      phones: [
+        554890,
+        283121
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 40480
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b66',
+      '65dd0bc901d78a20ef981b6f'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418ca'),
+    order_number: 1484976,
+    date: '09/08/2016 10:46 PM',
+    total_sum: 28692,
+    customer: {
+      name: 'Andrii',
+      surname: 'Ivanov',
+      phones: [
+        45734,
+        168767
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 657146
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b4c',
+      '65dd0bc901d78a20ef981b25',
+      '65dd0bc901d78a20ef981b33',
+      '65dd0bc901d78a20ef981b3f'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418cb'),
+    order_number: 4443888,
+    date: '01/18/2009 12:21 PM',
+    total_sum: 18666,
+    customer: {
+      name: 'Andrii',
+      surname: 'Tarasov',
+      phones: [
+        360436,
+        594983
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 161442
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b2d'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418cc'),
+    order_number: 9480291,
+    date: '06/16/2018 12:23 AM',
+    total_sum: 59597,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        322964,
+        497230
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 138950
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b63',
+      '65dd0bc901d78a20ef981b32',
+      '65dd0bc901d78a20ef981b3b',
+      '65dd0bc901d78a20ef981b4e'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418cd'),
+    order_number: 8566203,
+    date: '06/26/2011 12:46 PM',
+    total_sum: 15467,
+    customer: {
+      name: 'Valery',
+      surname: 'Tarasov',
+      phones: [
+        91103,
+        361082
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 979086
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b33',
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b37'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418ce'),
+    order_number: 1716689,
+    date: '01/04/2023 04:12 PM',
+    total_sum: 74741,
+    customer: {
+      name: 'Andrii',
+      surname: 'Pupko',
+      phones: [
+        502224,
+        560739
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 335116
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b52'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418cf'),
+    order_number: 7696974,
+    date: '03/19/2022 11:04 AM',
+    total_sum: 63209,
+    customer: {
+      name: 'Andrii',
+      surname: 'Ivanov',
+      phones: [
+        976921,
+        489459
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 529202
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b64',
+      '65dd0bc901d78a20ef981b5e',
+      '65dd0bc901d78a20ef981b86',
+      '65dd0bc901d78a20ef981b25'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418d0'),
+    order_number: 3947819,
+    date: '06/02/2008 12:16 PM',
+    total_sum: 59663,
+    customer: {
+      name: 'Andrii',
+      surname: 'Ivanov',
+      phones: [
+        309058,
+        748065
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 381513
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b62'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418d1'),
+    order_number: 2956055,
+    date: '03/22/2012 01:22 PM',
+    total_sum: 61965,
+    customer: {
+      name: 'Andrii',
+      surname: 'Tarasov',
+      phones: [
+        778866,
+        735222
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 682310
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b6a',
+      '65dd0bc901d78a20ef981b42',
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b31'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418d2'),
+    order_number: 4478623,
+    date: '11/02/2010 01:11 PM',
+    total_sum: 18848,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        647954,
+        255107
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 33750
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b70',
+      '65dd0bc901d78a20ef981b6f',
+      '65dd0bc901d78a20ef981b7f'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418d3'),
+    order_number: 3006632,
+    date: '03/15/2016 09:55 PM',
+    total_sum: 57699,
+    customer: {
+      name: 'Valery',
+      surname: 'Tarasov',
+      phones: [
+        446169,
+        936515
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 736058
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3a',
+      '65dd0bc901d78a20ef981b54',
+      '65dd0bc901d78a20ef981b40',
+      '65dd0bc901d78a20ef981b5e'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418d4'),
+    order_number: 4390532,
+    date: '07/12/2015 04:45 AM',
+    total_sum: 71809,
+    customer: {
+      name: 'Semen',
+      surname: 'Tarasov',
+      phones: [
+        620762,
+        774656
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Tarasov',
+      cardId: 832735
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3b',
+      '65dd0bc901d78a20ef981b52',
+      '65dd0bc901d78a20ef981b3f',
+      '65dd0bc901d78a20ef981b74'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418d5'),
+    order_number: 8775643,
+    date: '06/03/2011 07:25 PM',
+    total_sum: 98252,
+    customer: {
+      name: 'Andrii',
+      surname: 'Ivanov',
+      phones: [
+        47683,
+        244468
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 619059
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b4b',
+      '65dd0bc901d78a20ef981b70'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418d6'),
+    order_number: 398626,
+    date: '12/20/2009 12:47 AM',
+    total_sum: 1036,
+    customer: {
+      name: 'Valery',
+      surname: 'Ivanov',
+      phones: [
+        343796,
+        558737
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 580944
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b7e',
+      '65dd0bc901d78a20ef981b3d'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418d7'),
+    order_number: 9046110,
+    date: '05/29/2020 09:38 AM',
+    total_sum: 66771,
+    customer: {
+      name: 'Semen',
+      surname: 'Ivanov',
+      phones: [
+        487924,
+        827122
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 339021
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3e',
+      '65dd0bc901d78a20ef981b4b',
+      '65dd0bc901d78a20ef981b50'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418d8'),
+    order_number: 1515409,
+    date: '09/15/2013 06:52 PM',
+    total_sum: 73009,
+    customer: {
+      name: 'Valery',
+      surname: 'Ivanov',
+      phones: [
+        11022,
+        626548
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 261930
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b83',
+      '65dd0bc901d78a20ef981b48',
+      '65dd0bc901d78a20ef981b5e',
+      '65dd0bc901d78a20ef981b59'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418d9'),
+    order_number: 3140401,
+    date: '11/26/2014 03:10 AM',
+    total_sum: 32920,
+    customer: {
+      name: 'Andrii',
+      surname: 'Pupko',
+      phones: [
+        432405,
+        872138
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 614141
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b64',
+      '65dd0bc901d78a20ef981b80',
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b71'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418da'),
+    order_number: 8953419,
+    date: '09/15/2015 06:01 AM',
+    total_sum: 48875,
+    customer: {
+      name: 'Andrii',
+      surname: 'Pupko',
+      phones: [
+        464597,
+        129850
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 846657
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b40',
+      '65dd0bc901d78a20ef981b46'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418db'),
+    order_number: 5021099,
+    date: '09/16/2015 02:21 AM',
+    total_sum: 30190,
+    customer: {
+      name: 'Andrii',
+      surname: 'Tarasov',
+      phones: [
+        714099,
+        947522
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 476289
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b31',
+      '65dd0bc901d78a20ef981b62'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418dc'),
+    order_number: 6118096,
+    date: '10/09/2008 03:45 PM',
+    total_sum: 14342,
+    customer: {
+      name: 'Semen',
+      surname: 'Ivanov',
+      phones: [
+        850042,
+        717300
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 662836
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b41',
+      '65dd0bc901d78a20ef981b33',
+      '65dd0bc901d78a20ef981b78',
+      '65dd0bc901d78a20ef981b4c'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418dd'),
+    order_number: 6587994,
+    date: '09/25/2013 09:13 AM',
+    total_sum: 54322,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        899864,
+        830046
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 932807
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b70'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418de'),
+    order_number: 9006735,
+    date: '07/17/2022 01:41 AM',
+    total_sum: 77013,
+    customer: {
+      name: 'Valery',
+      surname: 'Tarasov',
+      phones: [
+        567743,
+        707063
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 705041
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b60',
+      '65dd0bc901d78a20ef981b3a',
+      '65dd0bc901d78a20ef981b84'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418df'),
+    order_number: 9785517,
+    date: '02/09/2022 11:05 PM',
+    total_sum: 29239,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        908417,
+        964424
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 843938
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5c',
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b57',
+      '65dd0bc901d78a20ef981b3d'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418e0'),
+    order_number: 6980886,
+    date: '06/12/2013 11:15 AM',
+    total_sum: 29135,
+    customer: {
+      name: 'Valery',
+      surname: 'Ivanov',
+      phones: [
+        646604,
+        121896
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 39366
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b2a',
+      '65dd0bc901d78a20ef981b6f',
+      '65dd0bc901d78a20ef981b6b'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418e1'),
+    order_number: 2345736,
+    date: '09/21/2011 02:12 PM',
+    total_sum: 48906,
+    customer: {
+      name: 'Valery',
+      surname: 'Tarasov',
+      phones: [
+        947123,
+        398610
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 596619
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b77',
+      '65dd0bc901d78a20ef981b43'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418e2'),
+    order_number: 5642344,
+    date: '12/16/2010 05:53 PM',
+    total_sum: 76695,
+    customer: {
+      name: 'Andrii',
+      surname: 'Tarasov',
+      phones: [
+        194870,
+        872963
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 428625
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5a',
+      '65dd0bc901d78a20ef981b63',
+      '65dd0bc901d78a20ef981b6f'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418e3'),
+    order_number: 4655127,
+    date: '04/03/2015 06:56 AM',
+    total_sum: 17335,
+    customer: {
+      name: 'Valery',
+      surname: 'Ivanov',
+      phones: [
+        35060,
+        330809
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 975768
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b72',
+      '65dd0bc901d78a20ef981b78',
+      '65dd0bc901d78a20ef981b69',
+      '65dd0bc901d78a20ef981b60'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418e4'),
+    order_number: 291379,
+    date: '07/13/2012 03:01 AM',
+    total_sum: 53004,
+    customer: {
+      name: 'Andrii',
+      surname: 'Tarasov',
+      phones: [
+        68794,
+        198084
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 773770
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5a',
+      '65dd0bc901d78a20ef981b41',
+      '65dd0bc901d78a20ef981b75'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418e5'),
+    order_number: 4546403,
+    date: '10/28/2017 04:57 AM',
+    total_sum: 79895,
+    customer: {
+      name: 'Semen',
+      surname: 'Ivanov',
+      phones: [
+        399228,
+        654351
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 468539
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b23',
+      '65dd0bc901d78a20ef981b4f',
+      '65dd0bc901d78a20ef981b2e',
+      '65dd0bc901d78a20ef981b32'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418e6'),
+    order_number: 871224,
+    date: '11/20/2011 06:22 AM',
+    total_sum: 15882,
+    customer: {
+      name: 'Valery',
+      surname: 'Ivanov',
+      phones: [
+        930246,
+        473676
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 685395
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3c',
+      '65dd0bc901d78a20ef981b6c',
+      '65dd0bc901d78a20ef981b2b',
+      '65dd0bc901d78a20ef981b55'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418e7'),
+    order_number: 8303544,
+    date: '06/15/2016 04:05 AM',
+    total_sum: 46083,
+    customer: {
+      name: 'Semen',
+      surname: 'Tarasov',
+      phones: [
+        87783,
+        646297
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Semen Tarasov',
+      cardId: 187144
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b7e',
+      '65dd0bc901d78a20ef981b37'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418e8'),
+    order_number: 4321335,
+    date: '08/07/2016 02:50 PM',
+    total_sum: 68330,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        880666,
+        125529
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 411660
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b45',
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b82'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418e9'),
+    order_number: 4066055,
+    date: '03/05/2009 09:32 PM',
+    total_sum: 52910,
+    customer: {
+      name: 'Valery',
+      surname: 'Ivanov',
+      phones: [
+        798728,
+        961002
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 800609
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3d',
+      '65dd0bc901d78a20ef981b62'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418ea'),
+    order_number: 8203330,
+    date: '01/03/2015 01:12 PM',
+    total_sum: 90322,
+    customer: {
+      name: 'Semen',
+      surname: 'Ivanov',
+      phones: [
+        616041,
+        616919
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 230365
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b67',
+      '65dd0bc901d78a20ef981b4c',
+      '65dd0bc901d78a20ef981b39',
+      '65dd0bc901d78a20ef981b83'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418eb'),
+    order_number: 3421439,
+    date: '04/08/2019 10:27 PM',
+    total_sum: 75496,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        121925,
+        977949
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 291347
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b46',
+      '65dd0bc901d78a20ef981b84',
+      '65dd0bc901d78a20ef981b58',
+      '65dd0bc901d78a20ef981b53'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418ec'),
+    order_number: 7448607,
+    date: '05/15/2019 12:32 AM',
+    total_sum: 91700,
+    customer: {
+      name: 'Andrii',
+      surname: 'Pupko',
+      phones: [
+        722858,
+        865446
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 820269
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b39'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418ed'),
+    order_number: 513124,
+    date: '09/05/2016 05:29 AM',
+    total_sum: 6470,
+    customer: {
+      name: 'Semen',
+      surname: 'Pupko',
+      phones: [
+        985443,
+        131081
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 359242
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b4a',
+      '65dd0bc901d78a20ef981b35'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418ee'),
+    order_number: 6990768,
+    date: '05/26/2016 09:49 PM',
+    total_sum: 67672,
+    customer: {
+      name: 'Andrii',
+      surname: 'Ivanov',
+      phones: [
+        165289,
+        639141
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 429270
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5f'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418ef'),
+    order_number: 9016642,
+    date: '07/26/2015 03:43 AM',
+    total_sum: 80528,
+    customer: {
+      name: 'Valery',
+      surname: 'Ivanov',
+      phones: [
+        471894,
+        216365
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 242021
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b2b',
+      '65dd0bc901d78a20ef981b27',
+      '65dd0bc901d78a20ef981b6f',
+      '65dd0bc901d78a20ef981b69'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418f0'),
+    order_number: 2643909,
+    date: '09/17/2021 12:30 AM',
+    total_sum: 72048,
+    customer: {
+      name: 'Semen',
+      surname: 'Ivanov',
+      phones: [
+        339080,
+        352297
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 486371
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b37',
+      '65dd0bc901d78a20ef981b6d'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418f1'),
+    order_number: 343970,
+    date: '03/29/2015 04:42 AM',
+    total_sum: 69308,
+    customer: {
+      name: 'Andrii',
+      surname: 'Ivanov',
+      phones: [
+        355992,
+        420575
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 670089
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b34',
+      '65dd0bc901d78a20ef981b29',
+      '65dd0bc901d78a20ef981b3e'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418f2'),
+    order_number: 5519902,
+    date: '05/26/2015 03:17 AM',
+    total_sum: 16524,
+    customer: {
+      name: 'Valery',
+      surname: 'Ivanov',
+      phones: [
+        156675,
+        362239
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 745832
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b67',
+      '65dd0bc901d78a20ef981b66'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418f3'),
+    order_number: 1305992,
+    date: '05/17/2010 02:39 AM',
+    total_sum: 77678,
+    customer: {
+      name: 'Valery',
+      surname: 'Tarasov',
+      phones: [
+        131965,
+        331484
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 205926
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b6d'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418f4'),
+    order_number: 5369375,
+    date: '04/13/2020 08:47 PM',
+    total_sum: 58541,
+    customer: {
+      name: 'Andrii',
+      surname: 'Pupko',
+      phones: [
+        2842,
+        983081
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 800368
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b4a'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418f5'),
+    order_number: 8198553,
+    date: '02/02/2015 09:33 PM',
+    total_sum: 331,
+    customer: {
+      name: 'Semen',
+      surname: 'Tarasov',
+      phones: [
+        966930,
+        980815
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Semen Tarasov',
+      cardId: 538463
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b23',
+      '65dd0bc901d78a20ef981b39',
+      '65dd0bc901d78a20ef981b4f',
+      '65dd0bc901d78a20ef981b66'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418f6'),
+    order_number: 7721219,
+    date: '01/29/2010 01:08 PM',
+    total_sum: 76040,
+    customer: {
+      name: 'Semen',
+      surname: 'Pupko',
+      phones: [
+        643076,
+        274731
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 804611
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3f',
+      '65dd0bc901d78a20ef981b6c',
+      '65dd0bc901d78a20ef981b2d',
+      '65dd0bc901d78a20ef981b32'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418f7'),
+    order_number: 2398393,
+    date: '08/16/2021 06:28 PM',
+    total_sum: 74530,
+    customer: {
+      name: 'Andrii',
+      surname: 'Tarasov',
+      phones: [
+        147644,
+        142044
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 423167
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b45'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418f8'),
+    order_number: 9849312,
+    date: '03/27/2012 11:07 AM',
+    total_sum: 45529,
+    customer: {
+      name: 'Valery',
+      surname: 'Ivanov',
+      phones: [
+        196623,
+        232276
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 740625
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b80',
+      '65dd0bc901d78a20ef981b24',
+      '65dd0bc901d78a20ef981b55',
+      '65dd0bc901d78a20ef981b5a'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418f9'),
+    order_number: 5899544,
+    date: '03/17/2008 12:01 PM',
+    total_sum: 73537,
+    customer: {
+      name: 'Andrii',
+      surname: 'Pupko',
+      phones: [
+        251594,
+        300131
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 361345
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b69',
+      '65dd0bc901d78a20ef981b62',
+      '65dd0bc901d78a20ef981b52',
+      '65dd0bc901d78a20ef981b7d'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418fa'),
+    order_number: 6655405,
+    date: '06/16/2009 02:51 AM',
+    total_sum: 55927,
+    customer: {
+      name: 'Semen',
+      surname: 'Ivanov',
+      phones: [
+        300249,
+        800068
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 628052
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b58',
+      '65dd0bc901d78a20ef981b3d',
+      '65dd0bc901d78a20ef981b4e',
+      '65dd0bc901d78a20ef981b6a'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418fb'),
+    order_number: 1320854,
+    date: '01/16/2010 01:35 AM',
+    total_sum: 50577,
+    customer: {
+      name: 'Andrii',
+      surname: 'Tarasov',
+      phones: [
+        529075,
+        297753
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 93385
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b23',
+      '65dd0bc901d78a20ef981b2b',
+      '65dd0bc901d78a20ef981b5d'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418fc'),
+    order_number: 9598687,
+    date: '03/20/2019 09:39 PM',
+    total_sum: 99148,
+    customer: {
+      name: 'Semen',
+      surname: 'Pupko',
+      phones: [
+        797753,
+        105639
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 288606
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5e',
+      '65dd0bc901d78a20ef981b5a',
+      '65dd0bc901d78a20ef981b7e',
+      '65dd0bc901d78a20ef981b2e'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418fd'),
+    order_number: 8703011,
+    date: '03/07/2011 06:53 AM',
+    total_sum: 77489,
+    customer: {
+      name: 'Semen',
+      surname: 'Tarasov',
+      phones: [
+        738681,
+        925947
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Semen Tarasov',
+      cardId: 403112
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b56'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418fe'),
+    order_number: 7434365,
+    date: '05/19/2021 05:02 AM',
+    total_sum: 97826,
+    customer: {
+      name: 'Valery',
+      surname: 'Ivanov',
+      phones: [
+        448994,
+        566028
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 593847
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b41',
+      '65dd0bc901d78a20ef981b66',
+      '65dd0bc901d78a20ef981b5c',
+      '65dd0bc901d78a20ef981b51'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418ff'),
+    order_number: 2017880,
+    date: '12/13/2012 08:37 PM',
+    total_sum: 76868,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        422905,
+        904419
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 437286
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b76'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141900'),
+    order_number: 2547410,
+    date: '03/18/2008 03:35 PM',
+    total_sum: 23756,
+    customer: {
+      name: 'Semen',
+      surname: 'Ivanov',
+      phones: [
+        372891,
+        470776
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 412081
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b4d',
+      '65dd0bc901d78a20ef981b34',
+      '65dd0bc901d78a20ef981b5b'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141901'),
+    order_number: 7577266,
+    date: '11/22/2017 01:10 PM',
+    total_sum: 34869,
+    customer: {
+      name: 'Andrii',
+      surname: 'Pupko',
+      phones: [
+        514226,
+        303213
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 968286
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5e',
+      '65dd0bc901d78a20ef981b2c'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141902'),
+    order_number: 6921411,
+    date: '03/16/2022 09:57 AM',
+    total_sum: 1764,
+    customer: {
+      name: 'Semen',
+      surname: 'Pupko',
+      phones: [
+        717357,
+        812533
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 533131
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b78',
+      '65dd0bc901d78a20ef981b6d',
+      '65dd0bc901d78a20ef981b86',
+      '65dd0bc901d78a20ef981b69'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141903'),
+    order_number: 8117068,
+    date: '11/23/2022 10:33 AM',
+    total_sum: 29873,
+    customer: {
+      name: 'Andrii',
+      surname: 'Tarasov',
+      phones: [
+        377078,
+        940998
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 273693
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b60',
+      '65dd0bc901d78a20ef981b3d'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141904'),
+    order_number: 9526416,
+    date: '09/25/2014 07:59 AM',
+    total_sum: 82840,
+    customer: {
+      name: 'Semen',
+      surname: 'Pupko',
+      phones: [
+        90731,
+        175752
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 274798
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b38',
+      '65dd0bc901d78a20ef981b2a',
+      '65dd0bc901d78a20ef981b29'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141905'),
+    order_number: 1629063,
+    date: '04/17/2022 12:21 PM',
+    total_sum: 89329,
+    customer: {
+      name: 'Semen',
+      surname: 'Tarasov',
+      phones: [
+        924061,
+        851859
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Tarasov',
+      cardId: 424017
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5f',
+      '65dd0bc901d78a20ef981b66'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141906'),
+    order_number: 4578904,
+    date: '05/01/2023 07:54 PM',
+    total_sum: 22917,
+    customer: {
+      name: 'Semen',
+      surname: 'Pupko',
+      phones: [
+        171326,
+        210282
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 452525
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b7c'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141907'),
+    order_number: 9072478,
+    date: '10/29/2012 07:07 PM',
+    total_sum: 85804,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        949788,
+        894924
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 291501
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b28',
+      '65dd0bc901d78a20ef981b60'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141908'),
+    order_number: 8304909,
+    date: '11/02/2011 03:18 PM',
+    total_sum: 82972,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        576416,
+        363461
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 478142
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b7a'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141909'),
+    order_number: 8405225,
+    date: '06/03/2022 06:34 PM',
+    total_sum: 85205,
+    customer: {
+      name: 'Valery',
+      surname: 'Tarasov',
+      phones: [
+        291856,
+        236851
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 484701
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b7a'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a14190a'),
+    order_number: 2087637,
+    date: '09/11/2017 08:12 AM',
+    total_sum: 36304,
+    customer: {
+      name: 'Semen',
+      surname: 'Pupko',
+      phones: [
+        27554,
+        25758
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 861088
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b48',
+      '65dd0bc901d78a20ef981b39'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a14190b'),
+    order_number: 1190497,
+    date: '05/07/2012 08:11 PM',
+    total_sum: 98749,
+    customer: {
+      name: 'Valery',
+      surname: 'Tarasov',
+      phones: [
+        146120,
+        691538
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 820381
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b2a'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a14190c'),
+    order_number: 5998698,
+    date: '04/03/2014 10:00 PM',
+    total_sum: 71033,
+    customer: {
+      name: 'Semen',
+      surname: 'Pupko',
+      phones: [
+        912472,
+        157209
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 672993
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b24',
+      '65dd0bc901d78a20ef981b25',
+      '65dd0bc901d78a20ef981b3a',
+      '65dd0bc901d78a20ef981b47'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a14190d'),
+    order_number: 9697434,
+    date: '01/04/2010 07:43 AM',
+    total_sum: 3795,
+    customer: {
+      name: 'Valery',
+      surname: 'Ivanov',
+      phones: [
+        875411,
+        849728
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 619183
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b68'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a14190e'),
+    order_number: 9961637,
+    date: '08/06/2012 05:25 AM',
+    total_sum: 52367,
+    customer: {
+      name: 'Andrii',
+      surname: 'Ivanov',
+      phones: [
+        987685,
+        778095
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 429839
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b85',
+      '65dd0bc901d78a20ef981b63',
+      '65dd0bc901d78a20ef981b84',
+      '65dd0bc901d78a20ef981b3f'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a14190f'),
+    order_number: 3701496,
+    date: '07/21/2012 11:01 PM',
+    total_sum: 83383,
+    customer: {
+      name: 'Andrii',
+      surname: 'Tarasov',
+      phones: [
+        687057,
+        168927
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 225649
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b79',
+      '65dd0bc901d78a20ef981b7f',
+      '65dd0bc901d78a20ef981b72',
+      '65dd0bc901d78a20ef981b5d'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141910'),
+    order_number: 5350930,
+    date: '04/23/2019 07:00 PM',
+    total_sum: 79808,
+    customer: {
+      name: 'Semen',
+      surname: 'Pupko',
+      phones: [
+        426070,
+        646074
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 513097
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b84',
+      '65dd0bc901d78a20ef981b73',
+      '65dd0bc901d78a20ef981b44',
+      '65dd0bc901d78a20ef981b83'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141911'),
+    order_number: 1844209,
+    date: '04/05/2016 05:56 AM',
+    total_sum: 4962,
+    customer: {
+      name: 'Andrii',
+      surname: 'Pupko',
+      phones: [
+        898129,
+        172616
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 621959
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b59',
+      '65dd0bc901d78a20ef981b33',
+      '65dd0bc901d78a20ef981b70',
+      '65dd0bc901d78a20ef981b26'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141912'),
+    order_number: 5326406,
+    date: '12/03/2009 07:00 AM',
+    total_sum: 53911,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        179071,
+        574805
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 74223
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b38',
+      '65dd0bc901d78a20ef981b68',
+      '65dd0bc901d78a20ef981b78'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141913'),
+    order_number: 3979780,
+    date: '12/29/2014 10:05 PM',
+    total_sum: 1233,
+    customer: {
+      name: 'Andrii',
+      surname: 'Tarasov',
+      phones: [
+        441664,
+        799902
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 770978
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b26',
+      '65dd0bc901d78a20ef981b4f',
+      '65dd0bc901d78a20ef981b3c'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141914'),
+    order_number: 4802031,
+    date: '08/02/2023 07:56 PM',
+    total_sum: 14512,
+    customer: {
+      name: 'Semen',
+      surname: 'Tarasov',
+      phones: [
+        366773,
+        240569
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Semen Tarasov',
+      cardId: 227756
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b6a',
+      '65dd0bc901d78a20ef981b64',
+      '65dd0bc901d78a20ef981b70',
+      '65dd0bc901d78a20ef981b70'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141915'),
+    order_number: 2488084,
+    date: '12/21/2019 10:41 AM',
+    total_sum: 49244,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        941747,
+        32838
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 939789
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b51'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141916'),
+    order_number: 5979667,
+    date: '01/24/2016 11:56 PM',
+    total_sum: 95339,
+    customer: {
+      name: 'Andrii',
+      surname: 'Pupko',
+      phones: [
+        812372,
+        924055
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 924818
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b7a',
+      '65dd0bc901d78a20ef981b67',
+      '65dd0bc901d78a20ef981b2e'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141917'),
+    order_number: 4644761,
+    date: '10/21/2010 03:21 AM',
+    total_sum: 22774,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        87532,
+        794784
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 762452
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b33',
+      '65dd0bc901d78a20ef981b68',
+      '65dd0bc901d78a20ef981b2b'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141918'),
+    order_number: 5656209,
+    date: '11/14/2012 03:27 AM',
+    total_sum: 91891,
+    customer: {
+      name: 'Semen',
+      surname: 'Tarasov',
+      phones: [
+        381913,
+        488277
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Tarasov',
+      cardId: 686285
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b59',
+      '65dd0bc901d78a20ef981b3d',
+      '65dd0bc901d78a20ef981b51'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141919'),
+    order_number: 6491825,
+    date: '03/12/2018 10:11 AM',
+    total_sum: 61722,
+    customer: {
+      name: 'Valery',
+      surname: 'Ivanov',
+      phones: [
+        736242,
+        592625
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 647473
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b83',
+      '65dd0bc901d78a20ef981b36'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a14191a'),
+    order_number: 3176693,
+    date: '09/06/2015 10:22 PM',
+    total_sum: 95025,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        559193,
+        426487
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 944415
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b65',
+      '65dd0bc901d78a20ef981b5d',
+      '65dd0bc901d78a20ef981b49'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a14191b'),
+    order_number: 3042699,
+    date: '10/17/2016 06:24 AM',
+    total_sum: 78720,
+    customer: {
+      name: 'Semen',
+      surname: 'Tarasov',
+      phones: [
+        374869,
+        899537
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Tarasov',
+      cardId: 144995
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b53',
+      '65dd0bc901d78a20ef981b41',
+      '65dd0bc901d78a20ef981b31'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a14191c'),
+    order_number: 8898368,
+    date: '02/15/2017 11:12 PM',
+    total_sum: 72515,
+    customer: {
+      name: 'Andrii',
+      surname: 'Ivanov',
+      phones: [
+        43878,
+        988660
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 154209
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b4e',
+      '65dd0bc901d78a20ef981b56'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a14191d'),
+    order_number: 4050217,
+    date: '09/23/2011 05:54 PM',
+    total_sum: 53290,
+    customer: {
+      name: 'Semen',
+      surname: 'Pupko',
+      phones: [
+        309016,
+        155861
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 263914
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3b',
+      '65dd0bc901d78a20ef981b73',
+      '65dd0bc901d78a20ef981b4a',
+      '65dd0bc901d78a20ef981b64'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a14191e'),
+    order_number: 4694108,
+    date: '07/21/2011 11:41 AM',
+    total_sum: 89250,
+    customer: {
+      name: 'Valery',
+      surname: 'Ivanov',
+      phones: [
+        479188,
+        699043
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 963355
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b25',
+      '65dd0bc901d78a20ef981b7e',
+      '65dd0bc901d78a20ef981b82'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a14191f'),
+    order_number: 9588630,
+    date: '07/18/2008 09:46 PM',
+    total_sum: 8046,
+    customer: {
+      name: 'Andrii',
+      surname: 'Ivanov',
+      phones: [
+        319770,
+        754079
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 779622
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b4b',
+      '65dd0bc901d78a20ef981b64',
+      '65dd0bc901d78a20ef981b3d'
+    ]
+  }
+]
+------------------------Task 2: All items with total_sum greater than 100-------------------
+[
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe63a'),
+    order_number: 9785517,
+    date: '02/09/2022 11:05 PM',
+    total_sum: 29539,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        908417,
+        964424
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 843938
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5c',
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b57',
+      '65dd0bc901d78a20ef981b3d',
+      '65dd0bc901d78a20ef981b57',
+      '65dd0bc901d78a20ef981b57',
+      '65dd0bc901d78a20ef981b57'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe63b'),
+    order_number: 6587994,
+    date: '09/25/2013 09:13 AM',
+    total_sum: 54322,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        899864,
+        830046
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 932807
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b70'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe63c'),
+    order_number: 9046110,
+    date: '05/29/2020 09:38 AM',
+    total_sum: 66771,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        487924,
+        827122
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 339021
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3e',
+      '65dd0bc901d78a20ef981b4b',
+      '65dd0bc901d78a20ef981b50'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe63d'),
+    order_number: 3462401,
+    date: '05/12/2008 08:05 AM',
+    total_sum: 87408,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        112838,
+        79971
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 236600
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b69',
+      '65dd0bc901d78a20ef981b3c',
+      '65dd0bc901d78a20ef981b66'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe63e'),
+    order_number: 1515409,
+    date: '09/15/2013 06:52 PM',
+    total_sum: 73009,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        11022,
+        626548
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 261930
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b83',
+      '65dd0bc901d78a20ef981b48',
+      '65dd0bc901d78a20ef981b5e',
+      '65dd0bc901d78a20ef981b59'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe63f'),
+    order_number: 3840901,
+    date: '07/04/2017 03:27 AM',
+    total_sum: 90559,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        784708,
+        908851
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 861213
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b86'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe640'),
+    order_number: 3140401,
+    date: '11/26/2014 03:10 AM',
+    total_sum: 32920,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        432405,
+        872138
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 614141
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b64',
+      '65dd0bc901d78a20ef981b80',
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b71'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe641'),
+    order_number: 8413305,
+    date: '08/25/2019 07:38 AM',
+    total_sum: 94770,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        72134,
+        617944
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 966634
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3d',
+      '65dd0bc901d78a20ef981b3f',
+      '65dd0bc901d78a20ef981b32'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe642'),
+    order_number: 3006632,
+    date: '03/15/2016 09:55 PM',
+    total_sum: 57699,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        446169,
+        936515
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 736058
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3a',
+      '65dd0bc901d78a20ef981b54',
+      '65dd0bc901d78a20ef981b40',
+      '65dd0bc901d78a20ef981b5e'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe643'),
+    order_number: 9413397,
+    date: '11/30/2011 01:08 PM',
+    total_sum: 85906,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        934671,
+        937488
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 947771
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b52'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe644'),
+    order_number: 8947867,
+    date: '06/16/2019 08:00 PM',
+    total_sum: 53759,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        236941,
+        969145
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Tarasov',
+      cardId: 743303
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b6f',
+      '65dd0bc901d78a20ef981b5f',
+      '65dd0bc901d78a20ef981b37'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe645'),
+    order_number: 1708879,
+    date: '01/27/2022 08:48 PM',
+    total_sum: 95420,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        846458,
+        966228
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Ivanov',
+      cardId: 785430
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b63',
+      '65dd0bc901d78a20ef981b51'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe646'),
+    order_number: 1484976,
+    date: '09/08/2016 10:46 PM',
+    total_sum: 28692,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        45734,
+        168767
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 657146
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b4c',
+      '65dd0bc901d78a20ef981b25',
+      '65dd0bc901d78a20ef981b33',
+      '65dd0bc901d78a20ef981b3f'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe647'),
+    order_number: 1144068,
+    date: '05/19/2018 04:58 PM',
+    total_sum: 66789,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        896898,
+        936487
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 822030
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b67',
+      '65dd0bc901d78a20ef981b6c',
+      '65dd0bc901d78a20ef981b4c',
+      '65dd0bc901d78a20ef981b53'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe648'),
+    order_number: 1423673,
+    date: '04/24/2011 06:00 AM',
+    total_sum: 16327,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        35870,
+        418783
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Semen Pupko',
+      cardId: 371523
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b83'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe649'),
+    order_number: 3016292,
+    date: '12/13/2018 02:48 PM',
+    total_sum: 27807,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        101874,
+        451307
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 456191
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b6e',
+      '65dd0bc901d78a20ef981b82'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe64a'),
+    order_number: 177795,
+    date: '05/09/2020 03:45 PM',
+    total_sum: 64027,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        554890,
+        283121
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 40480
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b66',
+      '65dd0bc901d78a20ef981b6f'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe64b'),
+    order_number: 8566203,
+    date: '06/26/2011 12:46 PM',
+    total_sum: 15467,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        91103,
+        361082
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 979086
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b33',
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b37'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe64c'),
+    order_number: 9480291,
+    date: '06/16/2018 12:23 AM',
+    total_sum: 59597,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        322964,
+        497230
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 138950
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b63',
+      '65dd0bc901d78a20ef981b32',
+      '65dd0bc901d78a20ef981b3b',
+      '65dd0bc901d78a20ef981b4e'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe64d'),
+    order_number: 871224,
+    date: '11/20/2011 06:22 AM',
+    total_sum: 15882,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        930246,
+        473676
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Ivanov',
+      cardId: 685395
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b3c',
+      '65dd0bc901d78a20ef981b6c',
+      '65dd0bc901d78a20ef981b2b',
+      '65dd0bc901d78a20ef981b55'
+    ]
+  }
+]
+Type "it" for more
+------------------------Task 3: All orders done by Valery Pupko--------------------------------
+[
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418bd'),
+    order_number: 5794538,
+    date: '08/06/2021 02:40 PM',
+    total_sum: 37337,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        315821,
+        364290
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 145586
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b7e',
+      '65dd0bc901d78a20ef981b76'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418c0'),
+    order_number: 672440,
+    date: '05/22/2012 08:14 AM',
+    total_sum: 78572,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        566857,
+        116277
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 517677
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b33',
+      '65dd0bc901d78a20ef981b3e',
+      '65dd0bc901d78a20ef981b30'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418cc'),
+    order_number: 9480291,
+    date: '06/16/2018 12:23 AM',
+    total_sum: 59597,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        322964,
+        497230
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 138950
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b63',
+      '65dd0bc901d78a20ef981b32',
+      '65dd0bc901d78a20ef981b3b',
+      '65dd0bc901d78a20ef981b4e'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418d2'),
+    order_number: 4478623,
+    date: '11/02/2010 01:11 PM',
+    total_sum: 18848,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        647954,
+        255107
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 33750
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b70',
+      '65dd0bc901d78a20ef981b6f',
+      '65dd0bc901d78a20ef981b7f'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418dd'),
+    order_number: 6587994,
+    date: '09/25/2013 09:13 AM',
+    total_sum: 54322,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        899864,
+        830046
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 932807
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b70'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418df'),
+    order_number: 9785517,
+    date: '02/09/2022 11:05 PM',
+    total_sum: 29239,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        908417,
+        964424
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 843938
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5c',
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b57',
+      '65dd0bc901d78a20ef981b3d'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418e8'),
+    order_number: 4321335,
+    date: '08/07/2016 02:50 PM',
+    total_sum: 68330,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        880666,
+        125529
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 411660
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b45',
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b82'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418eb'),
+    order_number: 3421439,
+    date: '04/08/2019 10:27 PM',
+    total_sum: 75496,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        121925,
+        977949
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 291347
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b46',
+      '65dd0bc901d78a20ef981b84',
+      '65dd0bc901d78a20ef981b58',
+      '65dd0bc901d78a20ef981b53'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418ff'),
+    order_number: 2017880,
+    date: '12/13/2012 08:37 PM',
+    total_sum: 76868,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        422905,
+        904419
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 437286
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b76'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141907'),
+    order_number: 9072478,
+    date: '10/29/2012 07:07 PM',
+    total_sum: 85804,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        949788,
+        894924
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 291501
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b28',
+      '65dd0bc901d78a20ef981b60'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141908'),
+    order_number: 8304909,
+    date: '11/02/2011 03:18 PM',
+    total_sum: 82972,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        576416,
+        363461
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 478142
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b7a'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141912'),
+    order_number: 5326406,
+    date: '12/03/2009 07:00 AM',
+    total_sum: 53911,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        179071,
+        574805
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 74223
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b38',
+      '65dd0bc901d78a20ef981b68',
+      '65dd0bc901d78a20ef981b78'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141915'),
+    order_number: 2488084,
+    date: '12/21/2019 10:41 AM',
+    total_sum: 49244,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        941747,
+        32838
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 939789
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b51'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141917'),
+    order_number: 4644761,
+    date: '10/21/2010 03:21 AM',
+    total_sum: 22774,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        87532,
+        794784
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 762452
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b33',
+      '65dd0bc901d78a20ef981b68',
+      '65dd0bc901d78a20ef981b2b'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a14191a'),
+    order_number: 3176693,
+    date: '09/06/2015 10:22 PM',
+    total_sum: 95025,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        559193,
+        426487
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 944415
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b65',
+      '65dd0bc901d78a20ef981b5d',
+      '65dd0bc901d78a20ef981b49'
+    ]
+  }
+]
+------------------------Task 4: All orders with id 65dd0bc901d78a20ef981b71-----------------------
+[
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe63a'),
+    order_number: 9785517,
+    date: '02/09/2022 11:05 PM',
+    total_sum: 29539,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        908417,
+        964424
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 843938
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5c',
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b57',
+      '65dd0bc901d78a20ef981b3d',
+      '65dd0bc901d78a20ef981b57',
+      '65dd0bc901d78a20ef981b57',
+      '65dd0bc901d78a20ef981b57'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe640'),
+    order_number: 3140401,
+    date: '11/26/2014 03:10 AM',
+    total_sum: 32920,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        432405,
+        872138
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 614141
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b64',
+      '65dd0bc901d78a20ef981b80',
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b71'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe65c'),
+    order_number: 9006735,
+    date: '07/17/2022 01:41 AM',
+    total_sum: 77013,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [
+        567743,
+        707063
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 705041
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b60',
+      '65dd0bc901d78a20ef981b3a',
+      '65dd0bc901d78a20ef981b84'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe661'),
+    order_number: 4321335,
+    date: '08/07/2016 02:50 PM',
+    total_sum: 68330,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        880666,
+        125529
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 411660
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b45',
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b82'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe683'),
+    order_number: 5326406,
+    date: '12/03/2009 07:00 AM',
+    total_sum: 53911,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [
+        179071,
+        574805
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 74223
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b38',
+      '65dd0bc901d78a20ef981b68',
+      '65dd0bc901d78a20ef981b78'
+    ]
+  },
+  {
+    _id: ObjectId('65e0c7e7d96d8e7e17afe689'),
+    order_number: 9588630,
+    date: '07/18/2008 09:46 PM',
+    total_sum: 8046,
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [
+        319770,
+        754079
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 779622
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b4b',
+      '65dd0bc901d78a20ef981b64',
+      '65dd0bc901d78a20ef981b3d'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418d9'),
+    order_number: 3140401,
+    date: '11/26/2014 03:10 AM',
+    total_sum: 32920,
+    customer: {
+      name: 'Andrii',
+      surname: 'Pupko',
+      phones: [
+        432405,
+        872138
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Andrii Pupko',
+      cardId: 614141
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b64',
+      '65dd0bc901d78a20ef981b80',
+      '65dd0bc901d78a20ef981b5b',
+      '65dd0bc901d78a20ef981b71'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418de'),
+    order_number: 9006735,
+    date: '07/17/2022 01:41 AM',
+    total_sum: 77013,
+    customer: {
+      name: 'Valery',
+      surname: 'Tarasov',
+      phones: [
+        567743,
+        707063
+      ],
+      address: 'Peremohy ave'
+    },
+    payment: {
+      card_owner: 'Valery Tarasov',
+      cardId: 705041
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b60',
+      '65dd0bc901d78a20ef981b3a',
+      '65dd0bc901d78a20ef981b84'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418df'),
+    order_number: 9785517,
+    date: '02/09/2022 11:05 PM',
+    total_sum: 29239,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        908417,
+        964424
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 843938
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b5c',
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b57',
+      '65dd0bc901d78a20ef981b3d'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a1418e8'),
+    order_number: 4321335,
+    date: '08/07/2016 02:50 PM',
+    total_sum: 68330,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        880666,
+        125529
+      ],
+      address: 'Sobaka avenue'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 411660
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b45',
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b82'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a141912'),
+    order_number: 5326406,
+    date: '12/03/2009 07:00 AM',
+    total_sum: 53911,
+    customer: {
+      name: 'Valery',
+      surname: 'Pupko',
+      phones: [
+        179071,
+        574805
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Valery Pupko',
+      cardId: 74223
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b38',
+      '65dd0bc901d78a20ef981b68',
+      '65dd0bc901d78a20ef981b78'
+    ]
+  },
+  {
+    _id: ObjectId('65e38a6fde58a2535a14191f'),
+    order_number: 9588630,
+    date: '07/18/2008 09:46 PM',
+    total_sum: 8046,
+    customer: {
+      name: 'Andrii',
+      surname: 'Ivanov',
+      phones: [
+        319770,
+        754079
+      ],
+      address: 'Tereblinake str'
+    },
+    payment: {
+      card_owner: 'Andrii Ivanov',
+      cardId: 779622
+    },
+    items_id: [
+      '65dd0bc901d78a20ef981b71',
+      '65dd0bc901d78a20ef981b4b',
+      '65dd0bc901d78a20ef981b64',
+      '65dd0bc901d78a20ef981b3d'
+    ]
+  }
+]
+------------------------Task 5: Add certain item to the order and increment total_sum by 100---------
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 4,
+  modifiedCount: 4,
+  upsertedCount: 0
+}
+------------------------Task 6: Print number of items in certain order---------
+[
+  { _id: ObjectId('65e0c7e7d96d8e7e17afe640'), count: 4 },
+  { _id: ObjectId('65e38a6fde58a2535a1418d9'), count: 4 }
+]
+------------------------Task 7: Orders with total_sum more than 5000-------------
+[
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [ 908417, 964424 ],
+      address: 'Sobaka avenue'
+    },
+    payment: { cardId: 843938 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [ 899864, 830046 ],
+      address: 'Peremohy ave'
+    },
+    payment: { cardId: 932807 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [ 487924, 827122 ],
+      address: 'Tereblinake str'
+    },
+    payment: { cardId: 339021 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [ 112838, 79971 ],
+      address: 'Tereblinake str'
+    },
+    payment: { cardId: 236600 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [ 11022, 626548 ],
+      address: 'Tereblinake str'
+    },
+    payment: { cardId: 261930 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [ 784708, 908851 ],
+      address: 'Peremohy ave'
+    },
+    payment: { cardId: 861213 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [ 432405, 872138 ],
+      address: 'Peremohy ave'
+    },
+    payment: { cardId: 614141 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [ 72134, 617944 ],
+      address: 'Peremohy ave'
+    },
+    payment: { cardId: 966634 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [ 446169, 936515 ],
+      address: 'Sobaka avenue'
+    },
+    payment: { cardId: 736058 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [ 934671, 937488 ],
+      address: 'Peremohy ave'
+    },
+    payment: { cardId: 947771 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [ 236941, 969145 ],
+      address: 'Sobaka avenue'
+    },
+    payment: { cardId: 743303 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [ 846458, 966228 ],
+      address: 'Tereblinake str'
+    },
+    payment: { cardId: 785430 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [ 45734, 168767 ],
+      address: 'Sobaka avenue'
+    },
+    payment: { cardId: 657146 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [ 896898, 936487 ],
+      address: 'Tereblinake str'
+    },
+    payment: { cardId: 822030 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [ 35870, 418783 ],
+      address: 'Tereblinake str'
+    },
+    payment: { cardId: 371523 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [ 101874, 451307 ],
+      address: 'Sobaka avenue'
+    },
+    payment: { cardId: 456191 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [ 554890, 283121 ],
+      address: 'Peremohy ave'
+    },
+    payment: { cardId: 40480 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Tarasov',
+      phones: [ 91103, 361082 ],
+      address: 'Tereblinake str'
+    },
+    payment: { cardId: 979086 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Pupko',
+      phones: [ 322964, 497230 ],
+      address: 'Peremohy ave'
+    },
+    payment: { cardId: 138950 }
+  },
+  {
+    customer: {
+      name: 'Vasyl',
+      surname: 'Ivanov',
+      phones: [ 930246, 473676 ],
+      address: 'Sobaka avenue'
+    },
+    payment: { cardId: 685395 }
+  }
+]
+Type "it" for more
+------------------------Task 9: Renaming each order's name-------------------------
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 200,
+  modifiedCount: 100,
+  upsertedCount: 0
+}
