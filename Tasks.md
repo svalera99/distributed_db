@@ -39,4 +39,24 @@ MATCH (customer: Customer WHERE customer.id = 0)-[:bought]->(order: Order)-[:con
 MATCH (item: Item)-[cnt:contains]->(order: Order) RETURN item.name, count(cnt) ORDER BY count(cnt) DESC
 ```
 
-### 7. All items viewed by customer with id = 0
+### 7. All items viewed by customer with id = 1
+```bash
+MATCH (cus: Customer where cus.id = 1)-[v:view]->(item: Item) RETURN item
+```
+
+### 8. All items that are in the same order as item with id = 3
+```bash
+MATCH (item_quer: Item where item_quer.id = 3)-[:contains]->(order: Order)-[:contains]-(item: Item) RETURN item
+UNION 
+MATCH (item: Item where item.id = 3) RETURN item
+```
+
+### 9. Find customer that bought item with id = 0
+```bash
+MATCH (item: Item WHERE item.id = 0)-[:contains]->(:Order)-[:bought]-(cust:Customer) RETURN collect(distinct cust)
+```
+
+### 10. Find items that customer with id = 1 didn't buy
+```bash
+MATCH (cust: Customer WHERE cust.id = 1)-[:view]->(item: Item) RETURN item
+```
