@@ -1,101 +1,101 @@
-category,model,producer,price
-Food,Model C,Producer Y,833.74
-Electronics,Model C,Producer V,930.54
-Furniture,Model A,Producer Z,353.07
-Electronics,Model B,Producer V,109.8
-Clothing,Model C,Producer W,967.05
-Sports,Model C,Producer W,871.05
-Electronics,Model A,Producer V,119.99
-Electronics,Model D,Producer Y,450.45
-Furniture,Model B,Producer Z,379.9
-Food,Model D,Producer W,772.7
-Food,Model D,Producer V,444.02
-Food,Model D,Producer X,483.74
-Sports,Model D,Producer Z,965.17
-Food,Model B,Producer X,251.15
-Food,Model E,Producer V,301.2
-Sports,Model D,Producer X,133.2
-Furniture,Model E,Producer Z,274.87
-Furniture,Model E,Producer Y,404.23
-Clothing,Model C,Producer X,100.97
-Sports,Model D,Producer W,250.93
-Electronics,Model A,Producer Y,119.78
-Clothing,Model B,Producer X,945.38
-Sports,Model A,Producer Y,523.06
-Electronics,Model B,Producer W,45.51
-Electronics,Model E,Producer Z,93.9
-Clothing,Model E,Producer Y,247.24
-Food,Model E,Producer Z,382.0
-Clothing,Model A,Producer Y,575.46
-Furniture,Model B,Producer Z,482.61
-Food,Model C,Producer V,507.04
-Food,Model B,Producer V,958.31
-Food,Model A,Producer X,958.2
-Sports,Model E,Producer Z,767.63
-Sports,Model A,Producer V,524.58
-Electronics,Model A,Producer W,587.11
-Sports,Model B,Producer W,45.34
-Clothing,Model D,Producer W,435.86
-Sports,Model C,Producer Z,589.82
-Electronics,Model B,Producer Y,527.02
-Sports,Model B,Producer V,482.87
-Furniture,Model C,Producer Z,226.87
-Electronics,Model A,Producer V,157.26
-Sports,Model D,Producer Z,821.69
-Furniture,Model D,Producer Z,346.34
-Clothing,Model D,Producer Z,649.12
-Food,Model A,Producer Z,52.86
-Food,Model D,Producer X,666.39
-Food,Model C,Producer Y,840.69
-Clothing,Model B,Producer Z,745.07
-Sports,Model B,Producer W,938.95
-Sports,Model A,Producer W,844.25
-Furniture,Model C,Producer Z,627.4
-Food,Model D,Producer W,675.87
-Furniture,Model C,Producer Z,660.22
-Sports,Model A,Producer Y,768.76
-Furniture,Model E,Producer X,373.0
-Furniture,Model B,Producer Z,592.86
-Clothing,Model A,Producer Z,326.67
-Sports,Model E,Producer X,124.58
-Furniture,Model E,Producer Y,672.24
-Furniture,Model D,Producer Z,957.63
-Sports,Model E,Producer Y,641.89
-Clothing,Model A,Producer W,779.24
-Sports,Model E,Producer Z,249.7
-Clothing,Model E,Producer X,413.11
-Furniture,Model B,Producer X,92.99
-Electronics,Model A,Producer Y,187.08
-Furniture,Model B,Producer Z,596.94
-Clothing,Model C,Producer W,664.92
-Electronics,Model A,Producer Y,102.75
-Electronics,Model A,Producer Y,921.35
-Clothing,Model B,Producer Z,843.14
-Food,Model D,Producer Z,966.91
-Sports,Model A,Producer Y,546.44
-Clothing,Model C,Producer Z,152.15
-Sports,Model D,Producer V,669.3
-Clothing,Model D,Producer W,600.72
-Sports,Model C,Producer W,965.11
-Clothing,Model B,Producer X,250.59
-Clothing,Model B,Producer X,83.07
-Electronics,Model E,Producer W,60.0
-Clothing,Model E,Producer Z,74.0
-Furniture,Model A,Producer W,108.36
-Food,Model A,Producer X,224.24
-Food,Model C,Producer Z,728.31
-Food,Model D,Producer Z,407.36
-Food,Model B,Producer W,647.22
-Food,Model C,Producer Y,776.15
-Furniture,Model B,Producer W,223.47
-Furniture,Model B,Producer X,960.97
-Clothing,Model D,Producer Y,872.3
-Furniture,Model C,Producer W,96.06
-Electronics,Model D,Producer W,503.99
-Sports,Model B,Producer W,120.25
-Furniture,Model D,Producer Z,606.21
-Furniture,Model D,Producer W,900.55
-Furniture,Model D,Producer X,357.26
-Sports,Model B,Producer V,207.29
-Clothing,Model C,Producer Y,72.98
-Sports,Model E,Producer Y,50.08
+category,model,producer,price,characteristics
+Food,Model C,Producer Y,833.74,{'additional_field': 'some_field'}
+Electronics,Model C,Producer V,930.54,{}
+Furniture,Model A,Producer Z,353.07,{}
+Electronics,Model B,Producer V,109.8,{'additional_field': 'some_other_field'}
+Clothing,Model C,Producer W,967.05,{}
+Sports,Model C,Producer W,871.05,{'additional_field': 'some_field'}
+Electronics,Model A,Producer V,119.99,{'additional_field': 'some_other_field'}
+Electronics,Model D,Producer Y,450.45,{}
+Furniture,Model B,Producer Z,379.9,{}
+Food,Model D,Producer W,772.7,{'additional_field': 'some_field'}
+Food,Model D,Producer V,444.02,{}
+Food,Model D,Producer X,483.74,{'additional_field': 'some_other_field'}
+Sports,Model D,Producer Z,965.17,{'additional_field': 'some_other_field'}
+Food,Model B,Producer X,251.15,{'additional_field': 'some_field'}
+Food,Model E,Producer V,301.2,{'additional_field': 'some_other_field'}
+Sports,Model D,Producer X,133.2,{'additional_field': 'some_field'}
+Furniture,Model E,Producer Z,274.87,{'additional_field': 'some_other_field'}
+Furniture,Model E,Producer Y,404.23,{}
+Clothing,Model C,Producer X,100.97,{}
+Sports,Model D,Producer W,250.93,{}
+Electronics,Model A,Producer Y,119.78,{'additional_field': 'some_field'}
+Clothing,Model B,Producer X,945.38,{'additional_field': 'some_other_field'}
+Sports,Model A,Producer Y,523.06,{}
+Electronics,Model B,Producer W,45.51,{}
+Electronics,Model E,Producer Z,93.9,{}
+Clothing,Model E,Producer Y,247.24,{'additional_field': 'some_field'}
+Food,Model E,Producer Z,382.0,{}
+Clothing,Model A,Producer Y,575.46,{'additional_field': 'some_field'}
+Furniture,Model B,Producer Z,482.61,{}
+Food,Model C,Producer V,507.04,{'additional_field': 'some_field'}
+Food,Model B,Producer V,958.31,{'additional_field': 'some_field'}
+Food,Model A,Producer X,958.2,{'additional_field': 'some_field'}
+Sports,Model E,Producer Z,767.63,{}
+Sports,Model A,Producer V,524.58,{'additional_field': 'some_field'}
+Electronics,Model A,Producer W,587.11,{'additional_field': 'some_other_field'}
+Sports,Model B,Producer W,45.34,{}
+Clothing,Model D,Producer W,435.86,{}
+Sports,Model C,Producer Z,589.82,{}
+Electronics,Model B,Producer Y,527.02,{'additional_field': 'some_field'}
+Sports,Model B,Producer V,482.87,{}
+Furniture,Model C,Producer Z,226.87,{'additional_field': 'some_other_field'}
+Electronics,Model A,Producer V,157.26,{}
+Sports,Model D,Producer Z,821.69,{}
+Furniture,Model D,Producer Z,346.34,{'additional_field': 'some_other_field'}
+Clothing,Model D,Producer Z,649.12,{'additional_field': 'some_other_field'}
+Food,Model A,Producer Z,52.86,{}
+Food,Model D,Producer X,666.39,{}
+Food,Model C,Producer Y,840.69,{'additional_field': 'some_other_field'}
+Clothing,Model B,Producer Z,745.07,{}
+Sports,Model B,Producer W,938.95,{'additional_field': 'some_field'}
+Sports,Model A,Producer W,844.25,{}
+Furniture,Model C,Producer Z,627.4,{'additional_field': 'some_other_field'}
+Food,Model D,Producer W,675.87,{'additional_field': 'some_other_field'}
+Furniture,Model C,Producer Z,660.22,{'additional_field': 'some_other_field'}
+Sports,Model A,Producer Y,768.76,{'additional_field': 'some_other_field'}
+Furniture,Model E,Producer X,373.0,{'additional_field': 'some_other_field'}
+Furniture,Model B,Producer Z,592.86,{'additional_field': 'some_other_field'}
+Clothing,Model A,Producer Z,326.67,{'additional_field': 'some_field'}
+Sports,Model E,Producer X,124.58,{}
+Furniture,Model E,Producer Y,672.24,{}
+Furniture,Model D,Producer Z,957.63,{}
+Sports,Model E,Producer Y,641.89,{}
+Clothing,Model A,Producer W,779.24,{}
+Sports,Model E,Producer Z,249.7,{'additional_field': 'some_other_field'}
+Clothing,Model E,Producer X,413.11,{}
+Furniture,Model B,Producer X,92.99,{'additional_field': 'some_other_field'}
+Electronics,Model A,Producer Y,187.08,{}
+Furniture,Model B,Producer Z,596.94,{'additional_field': 'some_other_field'}
+Clothing,Model C,Producer W,664.92,{'additional_field': 'some_field'}
+Electronics,Model A,Producer Y,102.75,{}
+Electronics,Model A,Producer Y,921.35,{}
+Clothing,Model B,Producer Z,843.14,{}
+Food,Model D,Producer Z,966.91,{}
+Sports,Model A,Producer Y,546.44,{}
+Clothing,Model C,Producer Z,152.15,{'additional_field': 'some_field'}
+Sports,Model D,Producer V,669.3,{}
+Clothing,Model D,Producer W,600.72,{}
+Sports,Model C,Producer W,965.11,{}
+Clothing,Model B,Producer X,250.59,{}
+Clothing,Model B,Producer X,83.07,{}
+Electronics,Model E,Producer W,60.0,{'additional_field': 'some_other_field'}
+Clothing,Model E,Producer Z,74.0,{'additional_field': 'some_field'}
+Furniture,Model A,Producer W,108.36,{}
+Food,Model A,Producer X,224.24,{'additional_field': 'some_other_field'}
+Food,Model C,Producer Z,728.31,{'additional_field': 'some_other_field'}
+Food,Model D,Producer Z,407.36,{}
+Food,Model B,Producer W,647.22,{'additional_field': 'some_field'}
+Food,Model C,Producer Y,776.15,{}
+Furniture,Model B,Producer W,223.47,{}
+Furniture,Model B,Producer X,960.97,{}
+Clothing,Model D,Producer Y,872.3,{'additional_field': 'some_field'}
+Furniture,Model C,Producer W,96.06,{}
+Electronics,Model D,Producer W,503.99,{'additional_field': 'some_other_field'}
+Sports,Model B,Producer W,120.25,{}
+Furniture,Model D,Producer Z,606.21,{'additional_field': 'some_other_field'}
+Furniture,Model D,Producer W,900.55,{}
+Furniture,Model D,Producer X,357.26,{'additional_field': 'some_field'}
+Sports,Model B,Producer V,207.29,{'additional_field': 'some_other_field'}
+Clothing,Model C,Producer Y,72.98,{}
+Sports,Model E,Producer Y,50.08,{'additional_field': 'some_field'}
